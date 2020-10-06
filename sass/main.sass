@@ -1,0 +1,139 @@
+@import 'colors','sizes','fonts','widgets'
+
+body
+  margin: 0
+  padding: 0
+  font-family: "AvenirNextLTPro"
+  background-color: $main_white
+
+/**-----------------------------------------Navbar Header-----------------------------------------------**/
+
+header
+  font-family: "AvenirNextLTPro"
+  .navigation
+    padding: 0
+    .container-fluid
+      padding: 0
+      flex-wrap: wrap
+    .main-menu
+      background-color: $main_dark
+      height: 43px
+      display: flex
+      align-items: center
+      padding: 0 24px
+      padding-left: 43px
+      .hamburger
+        display: none
+        padding: 0
+      .hamburger-inner
+        background-color: $main_white!important
+        width: 30px!important
+        height: 3px
+        &:before, &:after
+          background-color: $main_white!important
+          width: 30px!important
+          height: 3px
+
+
+      ul
+        list-style: none
+        padding-inline-start: 0
+        margin: 0
+        li
+          display: inline-block
+          padding-right: 35px
+          .menu-item
+            color: $main_white
+            font-size: 16px
+            font-weight: normal
+            font-stretch: normal
+            font-style: normal
+            line-height: 1.38
+            letter-spacing: normal
+            text-align: left
+
+    .topbar
+      height: 85px
+      background-color: $main_white
+      width: 100%
+      padding: 0 24px
+      display: flex
+      align-items: center
+      justify-content: space-between
+      .web-logo
+        color: $main_dark
+        font-size: 18px
+        font-weight: normal
+        font-stretch: normal
+        font-style: normal
+        line-height: 1.44
+        letter-spacing: normal
+        text-align: left
+        padding: 0
+        text-decoration: none
+        .slogan
+          &:before
+            content: " "
+            height: 25px
+            border-left: 1px solid $main_dark
+            margin: 0 25px
+        img
+          width: 197px
+          height: 77px
+      .header-controls
+        display: flex
+        align-items: center
+        justify-content: flex-end
+        align-self: center
+
+      .topbar-search
+        position: relative
+        .search_icn
+          position: absolute
+          left: 15px
+          top: 11px
+          cursor: pointer
+          z-index: 1
+          opacity: 0.5
+          &:hover
+            opacity: 1
+
+
+        input
+          padding: 15px 9px
+          border-radius: 14px
+          border: solid 1px $main_dark
+          opacity: 0.5
+          outline: none
+          height: 41px
+          padding-left: 47px
+          max-width: 193px
+      .join-btn
+        height: 41px
+        width: 136px
+        vertical-align: center
+        text-align: center
+        display: flex
+        align-items: center
+        justify-content: center
+        border-radius: 14px
+        margin-left: 15px
+      .login_link
+        text-decoration: none
+        color: $main_dark
+        font-size: 16px
+        font-weight: 300
+        line-height: 1.38
+        text-align: left
+        .login_icn
+          vertical-align: bottom
+          margin-right: 5px
+          margin-left: 32px
+
+
+
+/**-----------------------------------------Navbar Header END-----------------------------------------------**/
+
+
+
+@import 'responsive'
