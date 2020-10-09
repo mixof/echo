@@ -7,6 +7,19 @@ body
   background-color: $main_white
 .container
   max-width: 1200px
+  //padding-left: 0
+  //padding-right: 0
+.row
+  margin-right: 0
+  margin-left: 0
+
+h1, h2, h3, h4, h5, h6
+  margin: 0
+  padding: 0
+  margin-inline-end: 0
+  margin-inline-start: 0
+  margin-block-end: 0
+  margin-block-start: 0
 
 /**-----------------------------------------Navbar Header-----------------------------------------------**/
 
@@ -186,6 +199,7 @@ footer
 
 /**-----------------------------------------Subscription Form-----------------------------------------------**/
 .subscription-form
+  width: 100%
   .subscription-control
     display: flex
     flex-direction: row
@@ -199,6 +213,7 @@ footer
     outline: none
     border: none
     padding: 12px 18px
+    border-radius: 0
   .subscribe-btn
     height: 39px
     width: 134px
@@ -235,5 +250,142 @@ footer
 
 
 /**-----------------------------------------END SOCIAL SHARING-----------------------------------------------**/
+/**-----------------------------------------FOOTER MENUS------------------------------------------------------**/
+.widget-wrap
+  display: flex
+  flex-wrap: wrap
+  width: 100%
+  height: 100%
+  position: relative
+  flex-direction: column
+.footer-widget-title
+  color: $orange_title_color
+  font-family: 'AvenirNextLTPro-Demi'
+  font-size: 15px
+  font-weight: normal
+  font-stretch: normal
+  font-style: normal
+  line-height: 1.4
+  letter-spacing: normal
+  text-align: left
+  padding-bottom: 20px
+.line-bottom
+  border-bottom: 1px solid $main_white
+  padding-bottom: 36px
+.footer-menu
+  list-style: none
+  margin: 0
+  padding: 0
+  li
+    padding-bottom: 25px
+    &:last-child
+      padding-bottom: 0
+  .footer-menu-link
+    font-family: 'AvenirNextLTPro-Demi'
+    font-size: 15px
+    line-height: 1.4
+    color: $main_white
+    letter-spacing: normal
+
+.footer-submenu
+  margin: 0
+  padding: 0
+  padding-bottom: 20px
+  li
+    display: inline-block
+    &:not(:last-child):after
+      content: '●'
+      margin-right: 18px
+    .submenu-item
+      font-family: 'AvenirNextLTPro-Demi'
+      font-size: 15px
+      line-height: 1.4
+      color: $main_white
+      padding-right: 18px
+      letter-spacing: normal
+
+.mn-top
+  margin-top: 23px
+
+/**--------------------------------------------------------END FOOTER MENUS---------------------------------------------**/
+.footer-logo
+  img
+    height: 42px
+    width: auto
+.footer-copyright
+  display: flex
+  align-items: center
+  margin-left: 24px
+  .copyright
+    font-family: 'AvenirNextLTPro-Demi'
+    font-size: 15px
+    font-weight: normal
+    text-align: left
+    line-height: 1.4
+    color: $main_white
+
+/**----------------------------------------------------------MAIN BANNER------------------------------------------------**/
+
+.main-banner
+  background-color: #030303
+  width: 100%
+  .banner-wrap
+    position: relative
+    .banner-content
+      position: absolute
+      top: 21%
+      .banner-title
+        font-size: calc(1.25rem + ((1vw - 3.2px) * 3.75))
+        font-weight: bold
+        line-height: 1.4
+        color: $main_light_green
+        text-transform: uppercase
+      .banner-subtitle
+        font-family: 'AvenirNextLTPro-Demi'
+        font-size: calc(1.125rem + ((1vw - 3.2px) * 3.875))
+        font-weight: normal
+        line-height: 1.4
+        color: $main_white
+      .banner-features
+        padding-top: 50px
+        .banner-feature
+          display: inline-flex
+          align-items: flex-end
+          font-family: 'AvenirNextLTPro-Demi'
+          font-size: calc(0.9375rem + ((1vw - 3.2px) * 0.625))
+          font-weight: normal
+          line-height: 1.4
+          color: $main_white
+          padding-right: 64px
+      .banner-controls
+        padding-top: 50px
+        .filled-btn
+          border-radius: 14px
+          width: 279px
+          height: 69px
+          display: inline-flex
+          justify-content: center
+          align-items: center
+          font-size: 25px
+          font-family: 'AvenirNextLTPro-Demi'
+
+
+
+    .main-banner-img
+      max-width: 1600px
+      max-height: 765px
+      width: 100%
+      height: auto
+      display: block
+      margin: 0 auto
+
+
+/**-------------------------------------------------------END MAIN BANNER----------------------------------------------**/
+
+
+
+
+
+
 
 @import 'responsive'
