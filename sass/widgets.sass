@@ -31,9 +31,98 @@
   justify-content: center
   align-self: flex-end
 
+.transparent-btn
+  font-family: 'AvenirNextLTPro-Demi'
+  background-color: transparent
+  color: $orange_title_color
+  border: 5px solid $orange_title_color
+  border-radius: 10px
+  width: 279px
+  height: 69px
+  display: inline-flex
+  justify-content: center
+  align-items: center
+  margin-left: 35px
+  font-size: 25px
+  line-height: 1.4
+  &:hover
+    background-color: $orange_title_color
+    color: $main_white
+
+
+
 
 /**--------------------------------------------------END BUTTONS-----------------------------------------*/
 
+/*--------------------------------------------------SECTIONS HEADER---------------------------------------*/
+.section-header
+  font-family: 'AvenirNextLTPro-Demi'
+  display: flex
+  height: 96px
+  .header-icon
+    background-color: $main_dark
+  .header-wrap
+    width: 100%
+    position: relative
+    display: flex
+    &:before
+      position: absolute
+      z-index: -1
+      content: ""
+      top: 0
+      left: 50px
+      height: 100%
+      width: 70%
+      max-width: 1021px
+      background-color: $main_dark
+      -webkit-transform: skewX(-45deg)
+      -moz-transform: skewX(-45deg)
+      -ms-transform: skewX(-45deg)
+      transform: skewX(-45deg)
+
+    .header-title
+      background-color: $main_dark
+      width: 65%
+      max-width: 1021px
+      height: 100%
+      display: flex
+      justify-content: flex-start
+      align-items: center
+      color: $main_white
+    .header-icon
+      display: flex
+      justify-content: center
+      align-items: center
+      padding-left: 38px
+      padding-right: 20px
+
+
+
+    .section-header-part
+      height: 100%
+      width: 30%
+      margin-left: 20px
+      display: flex
+      border-style: solid
+      border-width: 0 0 96px 96px
+      &.red-part
+        border-color: transparent transparent $orange_title_color transparent
+      &.green-part
+        border-color: transparent transparent $main_green transparent
+  &.red-header
+    i
+      background-color: $orange_title_color
+  &.green-header
+    i
+      background-color: $main_green
+
+
+
+
+
+
+
+/*-------------------------------------------------END SECTIONS HEADER---------------------------------------*/
 
 
 /**--------------------------------------------------ICONS-----------------------------------------*/
@@ -75,11 +164,68 @@
   background-repeat: no-repeat
 
 .marked_icn
-  display: inline-block
+  display: inline-table
   mask-image: url("../img/check-mark.svg")
   height: 32px
   width: 32px
   background-color: $main_white
+.star_icn
+  display: inline-block
+  mask-image: url("../img/star.svg")
+  height: 40px
+  width: 40px
+
+.bulb_icn
+  display: inline-block
+  mask-image: url("../img/bulb.svg")
+  height: 40px
+  width: 40px
+
+.uag_icn
+  display: inline-block
+  background: url("../img/uag.png")
+  height: 52px
+  width: 62px
+  background-repeat: no-repeat
+
+.forum_icn
+  display: inline-block
+  mask-image: url("../img/forum.svg")
+  height: 68px
+  width: 68px
+
+.point_icn
+  display: inline-block
+  mask-image: url("../img/arm-target.svg")
+  height: 68px
+  width: 68px
+
+.discount_icn
+  display: inline-block
+  mask-image: url("../img/discount.svg")
+  height: 68px
+  width: 68px
+
+.network_icn
+  display: inline-block
+  mask-image: url("../img/network.svg")
+  height: 68px
+  width: 68px
+
+.cap_icn
+  display: inline-block
+  mask-image: url("../img/cap.svg")
+  height: 68px
+  width: 68px
+
+.phone_icn
+  display: inline-block
+  mask-image: url("../img/phone.svg")
+  height: 68px
+  width: 68px
+
+
+
 
 
 /**--------------------------------------------------END ICONS-----------------------------------------*/

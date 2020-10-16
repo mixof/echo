@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61c43473-77ba-4e8f-865d-3f7af9d8eb21" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1iUomwRB1AADJBnOwfCCQkneXj3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="Material Theme" />
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61c43473-77ba-4e8f-865d-3f7af9d8eb21" name="Default Changelist" comment="" />
+      <created>1601971693998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601971693998</updated>
+      <workItem from="1601971695134" duration="11089000" />
+      <workItem from="1601987739346" duration="4757000" />
+      <workItem from="1602051568117" duration="10695000" />
+      <workItem from="1602171070618" duration="3022000" />
+      <workItem from="1602229079175" duration="18700000" />
+      <workItem from="1602327337536" duration="1767000" />
+      <workItem from="1602329143289" duration="1094000" />
+      <workItem from="1602486837348" duration="417000" />
+      <workItem from="1602487403805" duration="681000" />
+      <workItem from="1602488551945" duration="4604000" />
+      <workItem from="1602493234943" duration="1784000" />
+      <workItem from="1602497450800" duration="1795000" />
+      <workItem from="1602499283898" duration="1787000" />
+      <workItem from="1602501109220" duration="1801000" />
+      <workItem from="1602502944890" duration="1781000" />
+      <workItem from="1602505457291" duration="2207000" />
+      <workItem from="1602507742451" duration="1317000" />
+      <workItem from="1602510995124" duration="1834000" />
+      <workItem from="1602513066009" duration="949000" />
+      <workItem from="1602536415398" duration="370000" />
+      <workItem from="1602536958468" duration="4576000" />
+      <workItem from="1602576341197" duration="13183000" />
+      <workItem from="1602667846866" duration="11489000" />
+      <workItem from="1602767153637" duration="13300000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="536" y="232" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602536433790">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="536" y="232" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1602536433790" />
+    <state x="480" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602487231902">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="480" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1602487231902" />
+    <state x="301" y="75" key="SettingsEditor" timestamp="1602536664457">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="75" key="SettingsEditor/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1602536664457" />
+    <state x="507" y="163" width="585" height="534" key="find.popup" timestamp="1602487026854">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="507" y="163" width="585" height="534" key="find.popup/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1602487026853" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1602487064083">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1602487064083" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1602487152967">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1602487152967" />
+  </component>
+</project>
