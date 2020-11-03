@@ -31,7 +31,7 @@
   justify-content: center
   align-self: flex-end
 
-.transparent-btn
+.transparent-btn, .transparent-btn-green
   font-family: 'AvenirNextLTPro-Demi'
   background-color: transparent
   color: $orange_title_color
@@ -48,6 +48,28 @@
   &:hover
     background-color: $orange_title_color
     color: $main_white
+
+.transparent-btn-green
+  color: $main_light_green
+  border: 5px solid $main_light_green
+  &:hover
+    background-color: $main_light_green
+
+.filled-btn-green
+  border-radius: 14px
+  width: 279px
+  height: 69px
+  display: inline-flex
+  justify-content: center
+  align-items: center
+  font-size: 25px
+  font-family: 'AvenirNextLTPro-Demi'
+  background-color: $main_light_green
+  &:hover
+    background-color: $main_green_hover
+
+
+
 
 
 
@@ -96,8 +118,6 @@
       padding-left: 38px
       padding-right: 20px
 
-
-
     .section-header-part
       height: 100%
       width: 30%
@@ -111,10 +131,10 @@
         border-color: transparent transparent $main_green transparent
   &.red-header
     i
-      background-color: $orange_title_color
+      //background-color: $orange_title_color
   &.green-header
     i
-      background-color: $main_green
+     // background-color: $main_green
 
 
 
@@ -166,21 +186,26 @@
 .marked_icn
   display: inline-table
   mask-image: url("../img/check-mark.svg")
+  -webkit-mask-image: url("../img/check-mark.svg")
   height: 32px
   width: 32px
   background-color: $main_white
 .star_icn
   display: inline-block
-  mask-image: url("../img/star.svg")
-  height: 40px
-  width: 40px
+  background: url('../img/star.png')
+  height: 50px
+  width: 51px
+  background-size: contain
+  background-repeat: no-repeat
+
 
 .bulb_icn
   display: inline-block
-  mask-image: url("../img/bulb.svg")
-  height: 40px
-  width: 40px
-
+  background: url('../img/bulb.png')
+  height: 62px
+  width: 64px
+  background-size: contain
+  background-repeat: no-repeat
 .uag_icn
   display: inline-block
   background: url("../img/uag.png")
@@ -190,42 +215,168 @@
 
 .forum_icn
   display: inline-block
-  mask-image: url("../img/forum.svg")
-  height: 68px
+  background: url('../img/forums.png')
+  height: 62px
   width: 68px
+  background-size: contain
+  background-repeat: no-repeat
 
 .point_icn
   display: inline-block
-  mask-image: url("../img/arm-target.svg")
-  height: 68px
+  background: url('../img/point.png')
+  height: 66px
   width: 68px
+  background-size: contain
+  background-repeat: no-repeat
 
 .discount_icn
   display: inline-block
-  mask-image: url("../img/discount.svg")
-  height: 68px
+  background: url('../img/discount.png')
+  height: 66px
   width: 68px
+  background-size: contain
+  background-repeat: no-repeat
 
 .network_icn
   display: inline-block
-  mask-image: url("../img/network.svg")
-  height: 68px
-  width: 68px
+  background: url('../img/networking.png')
+  background-size: contain
+  background-repeat: no-repeat
+  height: 70px
+  width: 73px
 
 .cap_icn
   display: inline-block
-  mask-image: url("../img/cap.svg")
-  height: 68px
-  width: 68px
+  background: url('../img/cap.png')
+  height: 67px
+  width: 70px
+  background-size: contain
+  background-repeat: no-repeat
 
 .phone_icn
   display: inline-block
-  mask-image: url("../img/phone.svg")
-  height: 68px
-  width: 68px
+  background: url('../img/phone.png')
+  height: 70px
+  width: 73px
+  background-size: contain
+  background-repeat: no-repeat
+
+.corona-icn
+  display: inline-block
+  background: url('../img/crown.png')
+  height: 24px
+  width: 24px
+  background-size: contain
+  background-repeat: no-repeat
+
+.google-icn
+  display: inline-block
+  background: url('../img/google-icn.png')
+  height: 47px
+  width: 45px
+  background-size: contain
+  background-repeat: no-repeat
+
+.facebook-icn
+  display: inline-block
+  background: url('../img/facebook-icn.png')
+  height: 47px
+  width: 45px
+  background-size: contain
+  background-repeat: no-repeat
+
+.linkedin-icn
+  display: inline-block
+  background: url('../img/linkedin-icn.png')
+  height: 49px
+  width: 46px
+  background-size: contain
+  background-repeat: no-repeat
+
+.twitter-icn
+  display: inline-block
+  background: url('../img/twitter-icn.png')
+  height: 49px
+  width: 46px
+  background-size: contain
+  background-repeat: no-repeat
+
+.play-icn
+  display: inline-block
+  background: url('../img/play.png')
+  height: 152px
+  width: 152px
+  background-size: contain
+  background-repeat: no-repeat
 
 
+.internet-share-icn
+  display: inline-block
+  background: url('../img/internet.png')
+  height: 33px
+  width: 31px
+  background-size: contain
+  background-repeat: no-repeat
 
+.facebook-share-icn
+  display: inline-block
+  background: url('../img/facebook-share.png')
+  height: 33px
+  width: 31px
+  background-size: contain
+  background-repeat: no-repeat
+
+.inst-share-icn
+  display: inline-block
+  background: url('../img/ista-share.png')
+  height: 33px
+  width: 31px
+  background-size: contain
+  background-repeat: no-repeat
+
+.youtube-share-icn
+  display: inline-block
+  background: url('../img/youtube-share.png')
+  height: 33px
+  width: 31px
+  background-size: contain
+  background-repeat: no-repeat
+
+.twitter-share-icn
+  display: inline-block
+  background: url('../img/twitter-share.png')
+  height: 33px
+  width: 31px
+  background-size: contain
+  background-repeat: no-repeat
 
 
 /**--------------------------------------------------END ICONS-----------------------------------------*/
+
+/*--------------------------------------------------COLORS FIXES---------------------------------------*/
+
+.light-green
+  color: $main_light_green
+
+/*--------------------------------------------------END COLORS FIXES---------------------------------------*/
+
+
+/*----------------------------------------------------OVERLAYS-------------------------------------------*/
+.white-overlay
+  position: absolute
+  width: 100%
+  height: 100%
+  background-color: #ffffff
+  opacity: 0.7
+  display: none
+
+.black-overlay
+  position: absolute
+  width: 100%
+  height: 100%
+  background-color: #000000
+  opacity: 0.4
+  display: none
+
+
+/*--------------------------------------------------END OVERLAYS---------------------------------------*/
