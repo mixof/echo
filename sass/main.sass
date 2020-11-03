@@ -1778,8 +1778,120 @@ footer
 
 /**-------------------------------------END PODCAST SECTION-------------------------------------------*/
 
+/**-------------------------------------FAQ SECTION------------------------------------------------*/
+.accordion-container
+        position: relative
+        width: 100%
+        outline: 0
+        cursor: pointer
+        -webkit-tap-highlight-color: transparent
+        -webkit-touch-callout: none
+        -webkit-user-select: none
+        -khtml-user-select: none
+        -moz-user-select: none
+        -ms-user-select: none
+        user-select: none
+        padding-bottom: 35px
 
 
+        .accordion-title
+          font-family: 'AvenirNextLTPro-Demi'
+          font-size: 18px
+          font-weight: 700!important
+          display: flex
+          justify-content: space-between
+          align-items: center
+          position: relative
+          margin: 0
+          padding: 0.625em 0.625em 0.625em 2em
+          color: #505050
+          background: #ffffff
+          cursor: pointer
+          border-bottom: 1px solid #dfdfdf
+          padding-left: 0
+          -webkit-tap-highlight-color: transparent
+          -webkit-touch-callout: none
+          -webkit-user-select: none
+          -khtml-user-select: none
+          -moz-user-select: none
+          -ms-user-select: none
+          user-select: none
+
+
+.accordion-container .accordion-title:hover, .accordion-container .accordion-title:active, .accordion-container .content-entry.open .accordion-title
+        background-color: #fdfdfd
+        color: #505050
+        -webkit-tap-highlight-color: transparent
+        -webkit-touch-callout: none
+        -webkit-user-select: none
+        -khtml-user-select: none
+        -moz-user-select: none
+        -ms-user-select: none
+        user-select: none
+
+
+.accordion-container .accordion-title:hover i:before, .accordion-container .accordion-title:hover i:active, .accordion-container .content-entry.open i
+        color: #505050
+
+
+.accordion-title
+        position: relative
+        -webkit-tap-highlight-color: transparent
+        -webkit-touch-callout: none
+        -webkit-user-select: none
+        -khtml-user-select: none
+        -moz-user-select: none
+        -ms-user-select: none
+        user-select: none
+
+
+.accordion-title:after
+        content: ""
+        display: inline-block
+        width: 0px
+        height: 0px
+        border-bottom: 0
+        border-left: 8px solid transparent
+        border-right: 8px solid transparent
+        border-top: 8px solid #cccccc
+        position: initial
+        top: 50%
+        right: 24px
+        transition: transform 0.25s linear
+        transform: translateY(-50%)
+        margin-left: 20px
+        -webkit-tap-highlight-color: transparent
+        -webkit-touch-callout: none
+        -webkit-user-select: none
+        -khtml-user-select: none
+        -moz-user-select: none
+        -ms-user-select: none
+        user-select: none
+
+
+.accordion-title.open:after
+        transform: translateY(-50%) rotate(0.5turn)
+        transform: translateY(-50%) rotate(0.5turn)
+        top: 45%
+
+
+.accordion-content
+        font-family: "AvenirNextLTPro"
+        padding-top: 15px
+        font-size: 16px
+        display: none
+        padding-left: 20px
+        -webkit-tap-highlight-color: transparent
+        -webkit-touch-callout: none
+        -webkit-user-select: none
+        -khtml-user-select: none
+        -moz-user-select: none
+        -ms-user-select: none
+        user-select: none
+
+
+
+/**-------------------------------------FAQ SECTION------------------------------------------------*/
 
 
 
