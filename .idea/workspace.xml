@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="61c43473-77ba-4e8f-865d-3f7af9d8eb21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.sass" afterDir="false" />
-    </list>
+    <list default="true" id="61c43473-77ba-4e8f-865d-3f7af9d8eb21" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,31 +13,30 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="ProjectId" id="1iUomwRB1AADJBnOwfCCQkneXj3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../OSPanel/domains/echov2-wp.com/echo-web-2/wp-content" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\ECHO v2" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -79,7 +75,32 @@
       <workItem from="1602576341197" duration="13183000" />
       <workItem from="1602667846866" duration="11489000" />
       <workItem from="1602767153637" duration="13300000" />
-      <workItem from="1604411939833" duration="2298000" />
+      <workItem from="1603113430709" duration="248000" />
+      <workItem from="1603113847873" duration="25000" />
+      <workItem from="1603114002001" duration="829000" />
+      <workItem from="1603179641132" duration="13657000" />
+      <workItem from="1603270580848" duration="2906000" />
+      <workItem from="1603277821247" duration="9000" />
+      <workItem from="1603277868716" duration="43000" />
+      <workItem from="1603379010882" duration="1147000" />
+      <workItem from="1603442401432" duration="8564000" />
+      <workItem from="1603705078612" duration="13587000" />
+      <workItem from="1603787220092" duration="125000" />
+      <workItem from="1603787395904" duration="15000" />
+      <workItem from="1603787560480" duration="1242000" />
+      <workItem from="1603789042509" duration="22955000" />
+      <workItem from="1603875731778" duration="6867000" />
+      <workItem from="1603969944857" duration="6934000" />
+      <workItem from="1604050381104" duration="13651000" />
+      <workItem from="1604318571384" duration="8768000" />
+      <workItem from="1604394477577" duration="3993000" />
+      <workItem from="1604490660849" duration="5125000" />
+      <workItem from="1604666492309" duration="1197000" />
+      <workItem from="1604910183263" duration="1377000" />
+      <workItem from="1605000663904" duration="10255000" />
+      <workItem from="1605086930092" duration="10099000" />
+      <workItem from="1605184755330" duration="8356000" />
+      <workItem from="1605257600772" duration="2119000" />
     </task>
     <servers />
   </component>
@@ -87,6 +108,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="392" y="88" key="#Deployment" timestamp="1603114224202">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="88" key="#Deployment/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1603114224202" />
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603114145931">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1603114145931" />
     <state x="536" y="232" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602536433790">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -95,21 +124,29 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="480" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1602487231902" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1605269174186">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1605269174186" />
     <state x="301" y="75" key="SettingsEditor" timestamp="1602536664457">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="75" key="SettingsEditor/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1602536664457" />
+    <state x="656" y="329" key="WebDeployment.AddServerDialog.v.1" timestamp="1603114187810">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="656" y="329" key="WebDeployment.AddServerDialog.v.1/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1603114187810" />
     <state x="507" y="163" width="585" height="534" key="find.popup" timestamp="1602487026854">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="507" y="163" width="585" height="534" key="find.popup/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1602487026853" />
-    <state x="456" y="195" key="run.anything.popup" timestamp="1602487064083">
+    <state x="456" y="195" key="run.anything.popup" timestamp="1603714265132">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="456" y="195" key="run.anything.popup/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1602487064083" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1602487152967">
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1603714265132" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1603114139485">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1602487152967" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1603114139485" />
   </component>
 </project>
