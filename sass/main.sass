@@ -248,6 +248,14 @@ footer
   color: $main_white
   padding: 60px 0
   margin-top: 35px
+  input[type='submit']
+    background-color: $main_green!important
+    &:hover
+      background-color: $main_green_hover!important
+
+.gform_wrapper
+  .gform_footer
+    padding-bottom: 0!important
 
 
 /**-----------------------------------------END FOOTER-----------------------------------------------**/
@@ -396,6 +404,10 @@ footer
 .main-banner
   background-color: #030303
   width: 100%
+  position: relative
+  .black-overlay
+    display: block
+    z-index: 1
   .banner-wrap
     position: relative
     .banner-content
@@ -1301,6 +1313,40 @@ footer
   width: 100%
   padding-bottom: 67px
   padding-top: 34px
+
+input[type=button].fmwp-write-reply
+  background-color: $orange_title_color!important
+#mceu_6
+  display: none
+button, input[type=button], input[type=reset], input[type=submit]
+  background-color: $orange_title_color!important
+  outline: none
+
+button:hover, button:focus, button[disabled]:focus, input[type=button]:hover, input[type=button]:focus, input[type=button][disabled]:focus, input[type=button][disabled]:hover, input[type=reset][disabled]:focus, input[type=reset][disabled]:hover, input[type=submit]:hover, input[type=submit][disabled]:focus, input[type=submit][disabled]:hover
+  background-color: $main_orange_hover!important
+.fmwp-post-popup-wrapper
+  .fmwp-post-popup-toolbar
+    .fmwp-post-popup-action-fullsize
+      background-color: $orange_title_color!important
+      border: 1px solid  $orange_title_color!important
+      &:hover
+        background-color: $main_orange_hover!important
+        border: 1px solid  $main_orange_hover!important
+.fmwp-search-topic, .fmwp-search-forum
+  background-color: $orange_title_color!important
+  &:hover
+    background-color: $main_orange_hover!important
+.fmwp-forum-latest-topic
+  strong
+    font-family: 'AvenirNextLTPro'!important
+    font-weight: bold!important
+
+
+
+
+
+
+
 /**-------------------------------------------END FORUMS SECTION----------------------------------------------**/
 
 
@@ -1729,6 +1775,7 @@ footer
   margin-top: 40px
   font-family: 'AvenirNextLTPro'
   font-size: 15px
+  margin-bottom: calc(40px + 1em)
   strong
     font-family: 'AvenirNextLTPro-Demi'
   ul
@@ -1961,8 +2008,8 @@ footer
 
         .accordion-title
           font-family: 'AvenirNextLTPro-Demi'
-          font-size: 20px
-          font-weight: 700!important
+          font-size: 18px
+          font-weight: normal
           display: flex
           justify-content: space-between
           align-items: center
@@ -2042,7 +2089,7 @@ footer
 
 .accordion-content
         font-family: "AvenirNextLTPro"
-        padding-top: 15px
+        padding-top: 20px
         font-size: 15px
         display: none
         padding-left: 20px
@@ -2053,6 +2100,7 @@ footer
         -moz-user-select: none
         -ms-user-select: none
         user-select: none
+        padding-bottom: 20px
         p
           margin-bottom: 0
           &:last-child
@@ -2090,6 +2138,15 @@ footer
   color: $orange_title_color!important
 .grey-bg
   background-color: #ededed
+
+.um-notification-live-count
+  right: -1px!important
+  top: 0px!important
+  width: 15px!important
+  height: 15px!important
+  line-height: 15px!important
+  z-index: 50
+
 
 
 

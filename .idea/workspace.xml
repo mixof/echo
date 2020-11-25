@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61c43473-77ba-4e8f-865d-3f7af9d8eb21" name="Default Changelist" comment="" />
+    <list default="true" id="61c43473-77ba-4e8f-865d-3f7af9d8eb21" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/responsive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/responsive.sass" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +18,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iUomwRB1AADJBnOwfCCQkneXj3" />
   <component name="ProjectViewState">
@@ -26,7 +35,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../OSPanel/domains/echov2-wp.com/echo-web-2/wp-content" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -101,6 +110,8 @@
       <workItem from="1605086930092" duration="10099000" />
       <workItem from="1605184755330" duration="8356000" />
       <workItem from="1605257600772" duration="2119000" />
+      <workItem from="1606215288551" duration="4162000" />
+      <workItem from="1606227523801" duration="3963000" />
     </task>
     <servers />
   </component>
@@ -124,9 +135,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="480" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1602487231902" />
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1605269174186">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="495" y="157" key="FileChooserDialogImpl" timestamp="1606227121314">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="495" y="157" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606227121314" />
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1605269174186" />
     <state x="301" y="75" key="SettingsEditor" timestamp="1602536664457">
       <screen x="0" y="0" width="1600" height="860" />
