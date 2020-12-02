@@ -1,4 +1,5 @@
 jQuery(function($) {
+  
     $(document).ready(function (e) {
 
         $('.js-accordion-title').on('click', function () {

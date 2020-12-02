@@ -24,6 +24,9 @@ h1, h2, h3, h4, h5, h6
   margin-block-end: 0
   margin-block-start: 0
 
+.website-width
+  position: relative  
+
 
 *.unselectable
   -moz-user-select: none
@@ -648,6 +651,7 @@ footer
     padding-top: 36px
     padding-bottom: 31px
     margin-top: 43px
+
     .article-actions
       ul
         list-style: none
@@ -1287,7 +1291,7 @@ footer
   margin-top: 25px
   //border-bottom: 1px solid #868686
   .banner-wrap
-    padding: 70px 0
+    padding: 60px 0
     .banner-title
       font-family: 'AvenirNextLTPro'
       font-size: 50px
@@ -1318,11 +1322,11 @@ input[type=button].fmwp-write-reply
   background-color: $orange_title_color!important
 #mceu_6
   display: none
-button, input[type=button], input[type=reset], input[type=submit]
+input[type=button], input[type=reset], input[type=submit]
   background-color: $orange_title_color!important
   outline: none
 
-button:hover, button:focus, button[disabled]:focus, input[type=button]:hover, input[type=button]:focus, input[type=button][disabled]:focus, input[type=button][disabled]:hover, input[type=reset][disabled]:focus, input[type=reset][disabled]:hover, input[type=submit]:hover, input[type=submit][disabled]:focus, input[type=submit][disabled]:hover
+input[type=button]:hover, input[type=button]:focus, input[type=button][disabled]:focus, input[type=button][disabled]:hover, input[type=reset][disabled]:focus, input[type=reset][disabled]:hover, input[type=submit]:hover, input[type=submit][disabled]:focus, input[type=submit][disabled]:hover
   background-color: $main_orange_hover!important
 .fmwp-post-popup-wrapper
   .fmwp-post-popup-toolbar
@@ -1340,6 +1344,11 @@ button:hover, button:focus, button[disabled]:focus, input[type=button]:hover, in
   strong
     font-family: 'AvenirNextLTPro'!important
     font-weight: bold!important
+input[type=button].fmwp-reply-popup-discard,input[type=button]#fmwp-topic-popup-discard
+  background-color: $main_dark!important  
+  &:hover
+    background-color: $main_dark!important
+
 
 
 
@@ -2154,6 +2163,156 @@ button:hover, button:focus, button[disabled]:focus, input[type=button]:hover, in
 
 /*-------------------------------------------END END END---------------------------*/
 
+/*------------------------------------------------POINTS AND BADGES PAGE----------------------------------*/
+.main-banner.points-banner
+  .banner-wrap
+    display: flex
+    align-items: center
+    justify-content: center
+    .banner-content
+      text-align: center
+      .banner-title
+        font-family: 'AvenirNextLTPro'
+        font-weight: bold
+        line-height: 1.4
+        color: $main_white
+        font-size: 50px
+        text-transform: none
+.green-header
+  color: $main_light_green
+  font-family: 'AvenirNextLTPro-Demi'
+  font-size: 40px
+  line-height: 1.4
+  //border-bottom: 1px solid $main_dark
+.simple-header
+  display: block
+  font-family: 'AvenirNextLTPro-Demi'
+  font-size: 25px
+  line-height: 1.4
+  color: $main_dark
+  padding-bottom: 25px
+  &.bordered
+    border-bottom: 1px solid $main_dark
+    padding-bottom: 15px
 
+.badges-list-wrap
+  padding-top: 70px
+  border-bottom: 1px solid  #2d2a29
+  .badges-list
+    .badge-item
+      display: flex
+      flex-direction: row
+      align-items: center
+      border-bottom: 1px solid #dee2e6
+      padding-bottom: 12px
+      padding-top: 12px
+      &.border-right
+        padding-left: 0
+      .badge-image
+        height: 102px
+        width: 102px
+      .badge-data
+        padding-left: 25px
+        .badge-name
+          font-family: 'AvenirNextLTPro-Demi'
+          font-size: 18px
+          line-height: 1.4
+          color: $main_dark
+        .badge-description
+          font-family: 'AvenirNextLTPro'
+          line-height: 1.4
+          font-size: 15px
+          color: $main_dark
+          padding-top: 5px
+    .r_col
+      .badge-item
+        padding-left: 25px
+
+.points-grid-wrap
+  padding-top: 100px
+  .points-grid
+    width: 100%
+    border: 2px solid #a3a1a1
+    tr
+      border-bottom: 1px solid #dee2e6
+      td
+        padding: 12px
+        &:first-child
+          border-right: 1px solid #dee2e6
+        .event-name
+          font-family: 'AvenirNextLTPro'
+          line-height: 1.4
+          font-size: 15px
+          color: $main_dark
+        .event-description
+          font-family: 'AvenirNextLTPro'
+          line-height: 1.33
+          font-size: 12px
+          color: $main_dark
+          display: block
+
+        .points-reward
+          font-family: 'AvenirNextLTPro-Demi'
+          font-size: 15px
+          line-height: 1.4
+
+
+
+
+
+
+
+/*------------------------------------------------END POINTS AND BADGES PAGE----------------------------------*/
+
+/*------------------------------------------------WORKSHOPS PAGE----------------------------------*/
+.red-text
+  color: $orange_title_color
+.upcoming-workshops
+  padding-top: 30px
+
+.coming-text
+  font-family: 'AvenirNextLTPro'
+  line-height: 1.4
+  font-size: 50px
+  color: $main_dark
+  padding: 77px 0
+  text-align: center
+  width: 100%
+  font-weight: normal
+
+.community-leaderboard-widget.leaderboard-red
+  .leaderboard-header
+    a.active, a:hover
+      color: $orange_title_color
+      border-color: $orange_title_color
+
+  .leaderboard-items
+    border: none
+    ul
+      padding-bottom: 25px
+    .leaderboard-item
+      &:last-child
+        border-bottom: 1px solid #e2e0e0
+      .leader_number
+        color: $orange_title_color
+        border-color: $orange_title_color
+      .leader-points
+        color: $main_dark
+      .leader-name
+        .last-activity
+          font-family: 'AvenirNextLTPro'
+          line-height: 1.38
+          font-size: 16px
+          color: #9c9c9c
+.banner-sec.blue-banner
+  background: url("../img/blue-banner.png") no-repeat
+.banner-sec.red-banner
+  background: url("../img/red-banner.png") no-repeat
+
+.tab-pane
+  .networking-sec
+    margin-top: 0
+
+/*------------------------------------------------END WORKSHOPS PAGE----------------------------------*/
 
 @import 'responsive'

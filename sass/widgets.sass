@@ -68,6 +68,24 @@
   &:hover
     background-color: $main_green_hover
 
+.filled-btn-red
+  border-radius: 14px
+  width: 279px
+  height: 69px
+  display: inline-flex
+  justify-content: center
+  align-items: center
+  font-size: 25px
+  font-family: 'AvenirNextLTPro-Demi'
+  background-color: $orange_title_color
+  &:hover
+    background-color: $main_orange_hover
+.emb-link
+  text-decoration: none!important
+  outline: none
+  &:hover
+    text-decoration: none!important
+    outline: none
 
 
 
@@ -256,7 +274,7 @@
 
 .phone_icn
   display: inline-block
-  background: url('../img/download-icn.png')
+  background: url('../img/phone.png')
   height: 61px
   width: 63px
   background-size: contain
@@ -422,3 +440,101 @@
 
 
 /*--------------------------------------------------END OVERLAYS---------------------------------------*/
+$loader--width: 180px
+$loader-dot--size: 10px
+
+.animation-container
+  height: 100%
+  width: 100%
+  font-family: 'AvenirNextLTPro-Demi'
+  position: fixed
+  top: 0
+  left: 0
+  background-color: rgba(255, 255, 255, 0.75)
+  z-index: 5
+
+.loader
+  height: $loader-dot--size
+  width: $loader--width
+  position: fixed
+  top: 45%
+  bottom: 0
+  left: 0
+  right: 0
+  margin: 0 auto
+  &--dot
+    animation:
+      name: loader
+      timing-function: ease-in-out
+      duration: 2.5s
+      iteration-count: infinite
+    height: $loader-dot--size
+    width: $loader-dot--size
+    border-radius: 100%
+    position: absolute
+
+    &:first-child
+      background-color: #7eb945
+      animation-delay: 0.5s
+
+    &:nth-child(2)
+      background-color: #9c9f3f
+      animation-delay: 0.4s
+
+    &:nth-child(3)
+      background-color: #ae903c
+      animation-delay: 0.3s
+
+    &:nth-child(4)
+      background-color: #c78c59
+      animation-delay: 0.2s
+
+    &:nth-child(5)
+      background-color: #d27135
+      animation-delay: 0.1s
+
+    &:nth-child(6)
+      background-color: #ee5930
+      animation-delay: 0s
+
+  &--text
+    position: absolute
+    top: 200%
+    left: 0
+    right: 0
+    width: 4rem
+    margin: auto
+
+    &:after
+      content: "Loading"
+      font-weight: bold
+      animation:
+        name: loading-text
+        duration: 3s
+        iteration-count: infinite
+
+@keyframes loader
+  15%
+    transform: translateX(0)
+
+  45%
+    transform: translateX( $loader--width - $loader-dot--size )
+
+  65%
+    transform: translateX( $loader--width - $loader-dot--size )
+
+  95%
+    transform: translateX(0)
+
+@keyframes loading-text
+  0%
+    content: "Loading"
+
+  25%
+    content: "Loading."
+
+  50%
+    content: "Loading.."
+
+  75%
+    content: "Loading..."
