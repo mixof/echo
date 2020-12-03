@@ -1,5 +1,20 @@
 jQuery(function($) {
-  
+    $(window).load(function() {
+        // console.log(fmwp_is_busy( 'individual_forum' ));
+        if(fmwp_is_busy( 'individual_forum' ))
+        {
+            let timerId = setInterval(function(){
+                // console.log(fmwp_is_busy( 'individual_forum' ));
+                if(!fmwp_is_busy( 'individual_forum' )){
+
+                    $('#loading-animation').hide();
+                    clearInterval(timerId);
+                }
+            }, 300);
+
+        }else $('#loading-animation').hide();
+
+    });
     $(document).ready(function (e) {
 
         $('.js-accordion-title').on('click', function () {
@@ -7,6 +22,12 @@ jQuery(function($) {
             $(this).next().slideToggle(200);
 
             $(this).toggleClass('open', 200);
+        });
+
+        $('.tabs-wrap .nav-tabs a').click(function(e){
+            e.preventDefault();
+            console.log('rfd');
+            $(this).tab('show');
         });
 
 
@@ -156,6 +177,8 @@ jQuery(function($) {
             slidesPerView: 3,
             spaceBetween: 12,
             loop: true,
+            observer: true,
+            observeParents: true,
             pagination: {
                 el: '.tips-slider .swiper-pagination',
                 clickable: true
