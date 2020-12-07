@@ -1191,7 +1191,8 @@ footer
     &:after
       content: ""
       display: inline-block
-      background: url('../img/play.png')
+      mask-image: url("../img/play-button.svg")
+      background: $main_white
       height: 152px
       width: 152px
       background-size: contain
@@ -1200,12 +1201,16 @@ footer
       left: 28%
       position: absolute
       cursor: pointer
+      z-index: 2
+    &:hover:after
+        background: $orange_title_color
     img
       width: 100%
       //max-width: 393px
       max-height: 239px
   .tip-content
     padding-left: 24px
+    padding-right: 24px
     padding-top: 27px
     border-top: 1px solid #b1b1b1
     padding-bottom: 44px
