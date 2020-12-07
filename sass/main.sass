@@ -924,8 +924,14 @@ footer
         border: 1px solid #b1b1b1
         .member-photo
           max-width: 383px
+          display: flex
+          justify-content: center
+          align-items: center
           img
-            width: 100%
+            max-width: 100%
+            width: 150px
+            height: 150px
+            margin: 20px 0
         .member-content
           display: flex
           justify-content: center
@@ -939,11 +945,13 @@ footer
             font-size: 25px
             line-height: 1.4
             color: #2d2a29
+            text-align: center
           .member-name
             font-family: 'AvenirNextLTPro'
             font-size: 25px
             line-height: 1.4
             color: #2d2a29
+            text-align: center
 
 
 
@@ -1017,6 +1025,17 @@ footer
     padding-top: 30px
     padding-left: 35px
     padding-right: 50px
+    .leaderboard-title
+      display: flex
+      justify-content: space-between
+      a
+        padding: 0
+        margin: 0
+        text-transform: uppercase
+        &:hover
+          border: none
+
+
     h3
      font-family: 'AvenirNextLTPro-Demi'
      font-size: 20px
@@ -1042,8 +1061,8 @@ footer
      &.active, &:hover
        font-family: 'AvenirNextLTPro-Demi'
        font-size: 18px
-       color: $main_light_green
-       border-bottom: 6px solid $main_light_green
+       color: $orange_title_color
+       border-bottom: 6px solid $orange_title_color
        margin-bottom: 0px
   .leaderboard-items
     border: 1px solid #707070
@@ -1055,49 +1074,49 @@ footer
       height: 100%
       padding-bottom: 75px
       margin: 0
-    .leaderboard-item
-      padding-left: 26px
-      border-bottom: 1px solid #e2e0e0
-      display: flex
-      justify-content: flex-start
-      align-items: center
-      padding-top: 8px
-      padding-right: 20px
-      padding-bottom: 8px
-      &:last-child
-        border: none
-      .leader_number
-        border: 1px solid $main_dark
-        height: 40px
-        width: 40px
-        display: flex
-        border-radius: 50%
-        justify-content: center
-        align-items: center
-        margin-right: 10px
+.leaderboard-item
+  padding-left: 26px
+  border-bottom: 1px solid #e2e0e0
+  display: flex
+  justify-content: flex-start
+  align-items: center
+  padding-top: 8px
+  padding-right: 20px
+  padding-bottom: 8px
+  &:last-child
+    border: none
+  .leader_number
+    border: 1px solid $main_dark
+    height: 40px
+    width: 40px
+    display: flex
+    border-radius: 50%
+    justify-content: center
+    align-items: center
+    margin-right: 10px
 
-      .leader-photo
-        height: 40px
-        width: 40px
-        display: inline-block
-        border-radius: 50%
-        object-fit: cover
-        text-align: center
-        margin-right: 20px
+  .leader-photo
+    height: 40px
+    width: 40px
+    display: inline-block
+    border-radius: 50%
+    object-fit: cover
+    text-align: center
+    margin-right: 20px
 
-      .leader-name
-        font-family: 'AvenirNextLTPro'
-        font-size: 18px
-        line-height: 1.44
-        color: #000000
+  .leader-name
+    font-family: 'AvenirNextLTPro'
+    font-size: 18px
+    line-height: 1.44
+    color: #000000
 
-      .leader-points
-        color: $main_light_green
-        font-family: 'AvenirNextLTPro-Demi'
-        font-size: 20px
-        display: flex
-        justify-content: flex-end
-        flex-grow: 5
+  .leader-points
+    color: $main_dark
+    font-family: 'AvenirNextLTPro-Demi'
+    font-size: 20px
+    display: flex
+    justify-content: flex-end
+    flex-grow: 5
 
 .tips-menu
   border-bottom: 1px solid $main_dark
@@ -1140,80 +1159,91 @@ footer
   .swiper-pagination
     padding: 0
     margin-top: 50px
+.related-articles-wrap
   .tip-wrap
-    max-width: 393px
-    .tip-header
-      background-color: $main_dark
-      height: 60px
-      width: 100%
+    height: auto
+.tip-wrap
+  //max-width: 393px
+  border: 1px solid #b1b1b1
+  width: 100%
+  display: flex
+  flex-direction: column
+  .tip-header
+    background-color: $main_dark
+    height: 60px
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding-left: 23px
+    padding-right: 8px
+    .tip-header-text
       display: flex
-      align-items: center
-      justify-content: space-between
-      padding-left: 23px
-      padding-right: 8px
-      .tip-header-text
-        display: flex
-        flex-direction: column
-        .tip-author, .tip-company
-          color: $main_white
-          line-height: 1.67
-          font-size: 12px
-    .tip-video
-      padding: 0
-      margin: 0
-      position: relative
-      &:after
-        content: ""
-        display: inline-block
-        background: url('../img/play.png')
-        height: 152px
-        width: 152px
-        background-size: contain
-        background-repeat: no-repeat
-        top: 20%
-        left: 28%
-        position: absolute
-        cursor: pointer
-      img
-        width: 100%
-        max-width: 393px
-        max-height: 239px
-    .tip-content
-      padding-left: 24px
-      padding-top: 27px
-      border: 1px solid #b1b1b1
-      padding-bottom: 44px
-      .tip-category
-        color: $main_green
-        font-family: 'AvenirNextLTPro-Demi'
+      flex-direction: column
+      .tip-author, .tip-company
+        color: $main_white
+        line-height: 1.67
         font-size: 12px
-        line-height: 1.5
-      .tip-title
-        font-family: 'AvenirNextLTPro'
-        font-size: 25px
-        font-weight: bold
-        line-height: 0.92
-        color: $main_dark
-        padding-top: 24px
-      .tip-btn
-        background-color: transparent
-        border: 2px solid $main_orange
-        border-radius: 7px
-        color: $main_orange
-        font-family: 'AvenirNextLTPro-Demi'
-        font-size: 15px
-        line-height: 1.4
-        //padding: 13px 24px
-        display: flex
-        transition: 0.2s ease-in
-        margin-top: 33px
-        justify-content: center
-        align-items: center
-        width: 136px
-        height: 41px
-        &:hover
-          background-color: $orange_title_color
-          color: $main_white
+  .tip-video
+    padding: 0
+    margin: 0
+    position: relative
+    &:after
+      content: ""
+      display: inline-block
+      background: url('../img/play.png')
+      height: 152px
+      width: 152px
+      background-size: contain
+      background-repeat: no-repeat
+      top: 20%
+      left: 28%
+      position: absolute
+      cursor: pointer
+    img
+      width: 100%
+      //max-width: 393px
+      max-height: 239px
+  .tip-content
+    padding-left: 24px
+    padding-top: 27px
+    border-top: 1px solid #b1b1b1
+    padding-bottom: 44px
+    height: 100%
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    .tip-category
+      color: $main_green
+      font-family: 'AvenirNextLTPro-Demi'
+      font-size: 12px
+      line-height: 1.5
+    .tip-title
+      font-family: 'AvenirNextLTPro'
+      font-size: 25px
+      font-weight: bold
+      line-height: 0.92
+      color: $main_dark
+      padding-top: 24px
+    .tip-btn
+      background-color: transparent
+      border: 2px solid $main_orange
+      border-radius: 7px
+      color: $main_orange
+      font-family: 'AvenirNextLTPro-Demi'
+      font-size: 15px
+      line-height: 1.4
+      //padding: 13px 24px
+      display: flex
+      transition: 0.2s ease-in
+      margin-top: 33px
+      justify-content: center
+      align-items: center
+      width: 136px
+      height: 41px
+      &:hover
+        background-color: $orange_title_color
+        color: $main_white
 
 
 
@@ -1518,21 +1548,20 @@ input[type=button].fmwp-reply-popup-discard,input[type=button]#fmwp-topic-popup-
           line-height: 1.4
           color: $main_light_green
           font-weight: bold
-          text-transform: uppercase
         .banner-subtitle
           font-family: 'AvenirNextLTPro-Demi'
-          font-size: 35px
+          font-size: 25px
           line-height: 1.4
           color: #000000
           margin-top: 10px
-          text-transform: uppercase
         .banner-tips
           list-style: none
           padding-inline-start: 0
-          margin-top: 30px
+          margin-top: 30px!important
           li
             display: flex
             align-items: center
+            margin-bottom: 20px
           .marked_icn
             width: 23px
             height: 23px
@@ -1547,6 +1576,10 @@ input[type=button].fmwp-reply-popup-discard,input[type=button]#fmwp-topic-popup-
           display: flex
           flex-direction: column
           padding-top: 50px
+          .red-text
+            font-family: 'AvenirNextLTPro-Demi'
+            font-size: 35px
+            line-height: 1.44
           .filled-btn
             border-radius: 10px
             background-color: $orange_title_color
@@ -1880,20 +1913,27 @@ input[type=button].fmwp-reply-popup-discard,input[type=button]#fmwp-topic-popup-
   display: flex
   padding-top: 6px
   .member-photo
+
     img
       width: 202px
       height: 205px
       object-fit: cover
+      border-radius: 20px
+    &.ag_photo
+      min-width: 87px
+      img
+        width: 87px
+        height: 88px
   .member-details
     padding-left: 39px
-    padding-top: 26px
+    padding-top: 0px
     .member-name
       font-family: 'AvenirNextLTPro-Demi'
-      font-size: 20px
+      font-size: 15px
       color: $main_green
     .member-position
       font-family: 'AvenirNextLTPro'
-      font-size: 17px
+      font-size: 15px
       line-height: 1.35
       color: $main_dark
     .member-social-links
@@ -1964,11 +2004,13 @@ input[type=button].fmwp-reply-popup-discard,input[type=button]#fmwp-topic-popup-
 
 .apply-block
   padding-top: 62px
+  margin-top: 62px
   display: flex
   width: 100%
   justify-content: center
   align-items: center
   flex-direction: column
+  border-top: 1px solid $main_dark
   .apply-btn
     //padding: 15px 47px
     font-size: 18px
@@ -2325,5 +2367,5 @@ input[type=button].fmwp-reply-popup-discard,input[type=button]#fmwp-topic-popup-
     .tips-menu-item
       margin-right: 7px
 /*------------------------------------------------END WORKSHOPS PAGE----------------------------------*/
-
+@import 'networking'
 @import 'responsive'
