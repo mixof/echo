@@ -148,8 +148,8 @@ jQuery(function($) {
 
 
         var swiper1 = new Swiper('.swiper-container.members-list', {
-            slidesPerView: 3,
             spaceBetween: 15,
+            slidesPerView: 'auto',
             loop: true,
             pagination: {
                 el: '.members-list .swiper-pagination',
@@ -158,24 +158,24 @@ jQuery(function($) {
             breakpoints: {
                 // when window width is >= 320px
                 0: {
-                    slidesPerView: 1
+                   // slidesPerView: 1
                 },
 
                 520: {
-                    slidesPerView: 2,
+                   // slidesPerView: 2,
                 },
 
                 820: {
-                    slidesPerView: 3,
-                    spaceBetween: 15
+                    //slidesPerView: 3,
+                    //spaceBetween: 15
                 }
             }
         });
 
 
         var swiper2 = new Swiper('.tips-slider .swiper-container', {
-            slidesPerView: 3,
             spaceBetween: 12,
+            slidesPerView: 'auto',
             loop: true,
             observer: true,
             observeParents: true,
@@ -186,16 +186,16 @@ jQuery(function($) {
             breakpoints: {
                 // when window width is >= 320px
                 0: {
-                    slidesPerView: 1
+                  //  slidesPerView: 1
                 },
 
                 520: {
-                    slidesPerView: 2,
+                    //slidesPerView: 2,
                 },
 
                 820: {
-                    slidesPerView: 3,
-                    spaceBetween: 15
+                    //slidesPerView: 3,
+                    //spaceBetween: 15
                 }
             }
         });

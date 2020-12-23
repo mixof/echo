@@ -8,10 +8,11 @@ body
 
 .container
   max-width: 1200px
-  padding-left: 43px
-  padding-right: 43px
+  /*padding-left: 43px*/
+  /*padding-right: 43px*/
 
-
+.live-shortcode
+  width: 100%!important
 .row
   margin-right: 0
   margin-left: 0
@@ -553,8 +554,9 @@ footer
       .author-name-heading
         border-right: 1px solid $main_dark
         padding-right: 18px
+        margin-right: 18px
       .posted-date
-        padding-left: 18px
+
   .article-content-wrap
     position: relative
     margin-top: 35px
@@ -982,7 +984,7 @@ footer
       line-height: 0.92
   h3
     font-family: 'AvenirNextLTPro-Demi'
-    font-size: 25px
+    font-size: 30px
     line-height: 1.4
     color: $main_white
 
@@ -1024,7 +1026,7 @@ footer
     background-color: $main_dark
     padding-top: 30px
     padding-left: 35px
-    padding-right: 50px
+    padding-right: 35px
     .leaderboard-title
       display: flex
       justify-content: space-between
@@ -1032,6 +1034,8 @@ footer
         padding: 0
         margin: 0
         text-transform: uppercase
+        width: 100px
+        text-align: right
         &:hover
           border: none
 
@@ -1152,7 +1156,7 @@ footer
   .tips-slider
     padding-top: 15px
 .tips-slider
-  padding-top: 50px
+  padding-top: 30px
   width: 100%
   position: relative
   padding-bottom: 26px
@@ -1207,7 +1211,7 @@ footer
     img
       width: 100%
       //max-width: 393px
-      max-height: 239px
+      //max-height: 239px
   .tip-content
     padding-left: 24px
     padding-right: 24px
@@ -1217,7 +1221,7 @@ footer
     height: 100%
     display: flex
     flex-direction: column
-    justify-content: space-between
+    justify-content: flex-start
     .tip-category
       color: $main_green
       font-family: 'AvenirNextLTPro-Demi'
@@ -1230,6 +1234,7 @@ footer
       line-height: 0.92
       color: $main_dark
       padding-top: 24px
+      flex: 1
     .tip-btn
       background-color: transparent
       border: 2px solid $main_orange
@@ -1918,7 +1923,6 @@ input[type=button].fmwp-reply-popup-discard,input[type=button]#fmwp-topic-popup-
   display: flex
   padding-top: 6px
   .member-photo
-
     img
       width: 202px
       height: 205px
@@ -1931,6 +1935,7 @@ input[type=button].fmwp-reply-popup-discard,input[type=button]#fmwp-topic-popup-
         height: 88px
   .member-details
     padding-left: 39px
+    padding-right: 39px
     padding-top: 0px
     .member-name
       font-family: 'AvenirNextLTPro-Demi'
@@ -2316,7 +2321,8 @@ input[type=button].fmwp-reply-popup-discard,input[type=button]#fmwp-topic-popup-
 
 /*------------------------------------------------WORKSHOPS PAGE----------------------------------*/
 .red-text
-  color: $orange_title_color
+  color: $orange_title_color!important
+
 .upcoming-workshops
   padding-top: 30px
 
@@ -2371,6 +2377,29 @@ input[type=button].fmwp-reply-popup-discard,input[type=button]#fmwp-topic-popup-
   ul
     .tips-menu-item
       margin-right: 7px
+
+
+.view-more-wrapper
+  margin-bottom: 60px
+.swiper-slide
+  /*width: 33.3%*/
+  width: 375px
+
+
+.tip-wrap
+  .tip-article, .tip-video
+    img
+      max-height: 296px!important
+      object-fit: cover
+      object-position: top
+  .tip-video
+    .tip-play-icon
+      top: 24%
+
+.leaderboard-header
+  ul
+    li
+      padding-bottom: 0!important
 /*------------------------------------------------END WORKSHOPS PAGE----------------------------------*/
 @import 'networking'
 @import 'responsive'

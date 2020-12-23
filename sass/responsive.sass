@@ -1,4 +1,8 @@
 @media screen and (max-width: 1220px)
+  .tip-wrap
+    .tip-content
+      .tip-title
+        font-size: 19px
   .main-banner
     .banner-wrap
       .banner-content
@@ -35,6 +39,18 @@
     .slogan
       display: none
 @media screen and (max-width: 1078px)
+  .network-banner.main-banner
+    .banner-content
+      .content-wrap
+        .small-title
+          font-size: 25px
+        .banner-title
+          font-size: 40px
+        .subtitle
+          font-size: 20px
+        .banner-controls
+          .filled-btn-red
+            font-size: 20px
 
   .tips-menu
     ul
@@ -66,6 +82,23 @@
         flex: 0 0 100%
         justify-content: flex-end
 @media screen and (max-width: 992px)
+  .tip-wrap
+    .tip-video
+      .tip-play-icon
+        width: 122px
+        height: 122px
+        top: 30%
+        left: 36%
+  .leaderboard-page
+    h3
+      font-size: 22px
+  .event-item
+    .event-image
+      img
+        width: 356px
+        max-width: 356px
+        height: 160px
+        object-fit: cover
   .badges-list-wrap
     .badges-list
       .badge-item
@@ -145,6 +178,114 @@
 
 
 @media screen and (max-width: 768px)
+  .uag-users
+  .member-wrap
+    padding-bottom: 30px
+  .article-details
+    .block-name
+      padding-bottom: 10px
+    .tags-items
+      padding-inline-start: 0
+      display: flex
+      li
+        margin-right: 5px
+        display: flex
+        &:first-child
+          padding-left: 0
+        a
+          padding: 8px 20px 8px 20px
+          font-size: 15px
+    .article-tags-list, .article-categories-list
+      display: flex
+      justify-content: center
+      align-items: center
+      flex-direction: column
+    .article-actions-wrap
+      .article-actions
+        ul
+          li
+            border-right: none!important
+            padding-left: 0!important
+            span
+              display: none
+  .row-header
+    height: auto
+    padding: 10px
+  .event-item
+    .event-image
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 100%
+      img
+        max-width: 456px
+        max-height: 256px
+    .event-info
+      align-items: center
+      justify-content: center
+      display: flex
+      flex-direction: column
+      width: 100%
+      .event-date
+        font-size: 20px!important
+        padding-top: 20px
+  .pro-members-item
+    .member-wrap
+      .member-photo
+        padding-left: 0
+  .row-header
+    h3
+      font-size: 26px
+    &.text-left
+      h3
+        font-size: 26px
+
+  .pro-members-item
+    .member-wrap
+      flex-direction: column
+      .member-photo
+        justify-content: center
+        align-items: center
+        display: flex
+      .member-details
+        padding-top: 20px
+        .member-name,.member-position,.member-social-links
+          text-align: center
+          display: flex
+          align-items: center
+          justify-content: center
+        .member-latest-posts
+          display: flex
+          flex-direction: column
+          align-items: center
+
+
+  .events-controls
+    flex-wrap: wrap
+  .event-item
+    flex-direction: column
+    align-items: flex-start
+    .event-image
+      img
+        width: 100%
+        height: auto
+    .event-info
+      padding-left: 0
+  .network-banner.main-banner
+    .banner-content
+      .content-wrap
+        padding-left: 24px
+        padding-right: 24px
+        .small-title
+          font-size: 25px
+        .banner-title
+          font-size: 40px
+        .subtitle
+          font-size: 20px
+        .banner-controls
+          width: auto!important
+          .filled-btn-red
+            font-size: 20px
   .workshops
     .workshop-banner
       .banner-content-wrap
@@ -420,8 +561,9 @@
     text-align: center
     justify-content: center
     padding: 0 30px
+    height: 76px
     h3
-      font-size: 22px
+      font-size: 20px
       text-align: center
   .article-details
     .transparent-header
@@ -491,6 +633,13 @@
             padding-left: 10px
 
 @media screen and (max-width: 578px)
+  .tip-wrap
+    .tip-video
+      .tip-play-icon
+        width: 80px
+        height: 80px
+        top: 36%
+        left: 40%
   .main-banner.uag-banner
     .banner-wrap
       .banner-content
@@ -570,6 +719,24 @@
             margin-left: 15px
 
 @media screen and (max-width: 575px)
+  .rsvp-wrap
+    flex-direction: column
+    .rsvp-controls
+      border: none
+      border-radius: 0 0px 19px 19px
+      width: 100%
+      .change_rsvp
+        padding-top: 20px
+
+  .events-controls
+    flex-direction: column
+    width: 100%
+    .control-wrap
+      margin-right: 0
+  .events-control-menu
+    width: 100%
+  .events-control
+    width: 100%
   .watch-btn
     margin: 0 auto
   .footer-widget-title
@@ -585,15 +752,21 @@
 
 
 
-
-
 @media screen and (max-width: 520px)
+  .network-banner.main-banner
+    .banner-content
+      .content-wrap
+        margin: 60px 0
+        padding: 60px 24px
+
   .community-leaderboard-widget
     .leaderboard-header
       h3
         font-size: 16px
-      a
+      a:not(.nav-link)
         font-size: 14px
+      a
+        margin-right: 10px
   .main-banner.points-banner
     .banner-wrap
       .banner-content
@@ -765,6 +938,14 @@
       margin-bottom: 5px
 
 @media screen and (max-width: 475px)
+  .community-leaderboard-widget
+    .leaderboard-header
+      .leaderboard-title
+        display: flex
+        flex-direction: column
+        a
+          margin-right: 10px
+          text-align: left
   .workshops
     .workshop-banner
       .banner-content-wrap
@@ -897,6 +1078,23 @@
        height: auto
 
 @media screen and (max-width: 375px)
+  .swiper-slide
+    width: 100%
+  .network-banner.main-banner
+    .banner-content
+      .content-wrap
+        margin: 10px 0
+        padding: 30px 24px
+        .small-title
+          font-size: 20px
+        .banner-title
+          font-size: 30px
+        .subtitle
+          font-size: 18px
+        .banner-controls
+          width: auto
+          .filled-btn-red
+            font-size: 18px
   .breadcrumbs
     .breadcrumb
       a

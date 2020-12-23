@@ -1,12 +1,19 @@
 /*---------------------NETWORKING PAGE----------------------------------------------*/
-
 .main-banner.network-banner
   .banner-content
-    background-color: #000000c4
     display: flex
     justify-content: center
     align-items: center
-    flex-direction: column
+    padding: 0
+    .content-wrap
+      padding: 60px 0
+      background-color: #000000c4
+      display: flex
+      justify-content: center
+      align-items: center
+      flex-direction: column
+      width: 100%
+      margin: 100px 0
     .small-title
       font-family: 'AvenirNextLTPro'
       font-size: 30px
@@ -51,6 +58,502 @@
         a
           font-family: 'AvenirNextLTPro-Demi'
           color: $main_white
+.events-controls
+  padding-top: 20px
+  padding-bottom: 18px
+  display: flex
+  .control-wrap
+    margin-right: 20px
+    margin-top: 20px
+
+.events-control-menu
+  padding: 0
+  margin: 0
+  border-radius: 0
+  border-left: 1px solid $main_dark
+  border-right: 1px solid $main_dark
+  width: 200px
+  .dropdown-item
+    padding-top: 12px
+    padding-bottom: 12px
+    width: 100%
+    border-bottom: 1px solid $main_dark
+    &:hover
+      background-color: #ffece7
+    &:active, &:focus
+      outline: none
+      color: $main_dark
+
+.events-control
+  border: 1px solid $main_dark
+  background-color: $main_white
+  color: $main_dark
+  border-radius: 0
+  padding: 0
+  width: 200px
+  text-align: left
+  outline: none
+  display: flex!important
+  align-items: center
+  justify-content: space-between
+  box-shadow: none
+  font-family: 'AvenirNextLTPro'
+  font-size: 15px
+  line-height: 1.4
+  &:hover
+    background-color: $main_white
+    color: $main_dark
+  &:focus
+    box-shadow: none
+  &:after
+    content: none
+  .btn-text, .arrow-btn
+    padding: 12px
+  .arrow-btn
+    border-left: 1px solid $main_dark
+  .arrow-icn
+    display: inline-block
+    background: url('../img/arrow-down.png')
+    height: 14px
+    width: 15px
+    background-size: contain
+    background-repeat: no-repeat
+
+.search-control
+  border: 1px solid $main_dark
+  display: flex
+  align-items: center
+  position: relative
+  input
+    border: none
+    outline: none
+    padding: 11px
+    padding-left: 50px
+    background-color: $main_white
+  .search-icn
+    position: absolute
+    left: 20px
+    cursor: pointer
+.events-list-wrap
+  width: 100%
+.event-item
+  display: flex
+  border-top: 1px solid #959493
+  width: 100%
+  padding-top: 17px
+  padding-bottom: 17px
+  position: relative
+  &:last-child
+    border-bottom: 1px solid #959493
+  &:first-child
+    margin-top: 30px
+    border-top: none
+  .event-link
+    width: 100%
+    height: 100%
+    position: absolute
+
+  .event-image
+    img
+      width: 456px
+      height: 256px
+      border-radius: 36px
+      object-fit: cover
+      object-position: center
+      max-width: 456px
+  .event-info
+    padding-left: 45px
+    .event-title
+      font-family: 'AvenirNextLTPro'
+      font-size: 18px
+      line-height: 1.44
+      font-weight: bold
+      color: #010101
+      padding-top: 25px
+    .event-hosted
+      font-family: 'AvenirNextLTPro-Demi'
+      font-size: 15px
+      line-height: 1.4
+      color: $main_dark
+      padding-top: 20px
+    .event-company
+      font-family: 'AvenirNextLTPro'
+      font-size: 15px
+      line-height: 1.4
+      color: $main_dark
+      padding-top: 10px
+    .event-action
+      padding-top: 28px
+      display: flex
+      align-items: flex-start
+      justify-content: flex-start
+      a
+        margin: 0
+        border-width: 2px
+        width: 205px
+        height: 40px
+        display: flex
+        justify-content: center
+        align-items: center
+        font-family: 'AvenirNextLTPro-Demi'
+        font-size: 16px
+        line-height: 1.38
+        text-decoration: none
+        z-index: 5
+    .event-join-text
+      font-family: 'AvenirNextLTPro'
+      font-size: 15px
+      line-height: 1.4
+      color: $main_dark
+      padding-top: 19px
+      a
+        font-family: 'AvenirNextLTPro-Demi'
+        color: $orange_title_color
+.pro-members-wrap
+  padding-top: 48px
+.pro-members-item
+  border: 1px solid $main_dark
+  margin-top: 31px
+  padding: 20px 0
+  .member-wrap
+    .member-photo
+      padding-left: 20px
+      padd
+      img
+        width: 202px
+        height: 205px
+
+.networking-shortcode
+  .view-all-btn
+    display: none!important
+.content-sec.networking
+  padding-top: 20px
+  padding-bottom: 48px
+.upcomming-events
+  width: 100%
+  .event-item.upcomming
+    border: none
+    .event-info
+      .event-date
+        font-family: 'AvenirNextLTPro'
+        font-size: 26px
+        font-weight: bold
+        color: $orange_title_color
+        .e-date
+          &:after
+            content: " • "
+            vertical-align: sub
+
+      .event-title
+        padding-top: 10px
+
+
+
+.event-header
+  font-family: 'AvenirNextLTPro-Demi'
+  color: $main_dark
+  font-size: 30px
+  line-height: 1.4
+  .event-title
+    padding-bottom: 15px
+.event-date-time
+  font-family: 'AvenirNextLTPro-Demi'
+  font-size: 18px
+  line-height: 1.44
+  color: $orange_title_color
+  padding-bottom: 15px
+  border-bottom: 1px solid $main_dark
+  .event-date
+    &:after
+      content: " • "
+      vertical-align: sub
+
+.access-wrap
+  padding: 22px 0
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  border-bottom: 1px solid $main_dark
+  margin-bottom: 25px
+  .join-text
+    font-family: 'AvenirNextLTPro-Demi'
+    font-size: 18px
+    line-height: 1.44
+    color: $main_dark
+    a
+      color: $orange_title_color
+  .filled-btn-red
+    color: $main_white
+    max-height: 40px
+    max-width: 245px
+    text-decoration: none
+    font-size: 16px
+.event-detail-video
+  display: flex
+  justify-content: center
+  align-items: center
+  img
+    width: 100%
+  .event-play-icon
+    display: flex
+    margin: auto
+    mask-image: url('../img/play-button.svg')
+    background: #ffffff
+    height: 152px
+    width: 152px
+    max-height: 100%
+    max-width: 100%
+    background-size: contain
+    background-repeat: no-repeat
+    position: absolute
+    cursor: pointer
+    z-index: 2
+    &:hover
+      background-color: $orange_title_color
+.networking-details
+  padding-top: 54px
+  .event-content
+    padding-top: 30px
+.rsvp-wrap
+  margin-top: 25px
+  border-radius: 20px
+  border: 1px solid $main_dark
+  display: flex
+  flex-direction: row
+  .rsvp-info
+    padding: 21px
+    flex: 1
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    .rsvp-date
+      font-family: 'AvenirNextLTPro-Demi'
+      font-size: 15px
+      line-height: 1.44
+      color: $main_dark
+    .rsvp-time
+      font-family: 'AvenirNextLTPro'
+      font-size: 15px
+      line-height: 1.4
+      color: $main_dark
+      padding-top: 20px
+      display: flex
+      align-items: flex-end
+      i
+        margin-right: 10px
+    .rsvp-event-link
+      padding-top: 15px
+      display: flex
+      align-items: flex-end
+      i
+        margin-right: 10px
+      a
+        font-family: 'AvenirNextLTPro'
+        font-size: 15px
+        line-height: 1.4
+        color: $orange_title_color
+    .rsvp-to-calendar
+      padding-top: 50px
+      a
+        font-family: 'AvenirNextLTPro'
+        font-size: 15px
+        line-height: 1.4
+        color: $orange_title_color
+  .rsvp-controls, .rsvp-modal-controls
+    display: flex
+    flex-direction: column
+    border-radius: 0 20px 20px 0
+    padding: 21px
+    background-color: #f4f6fa
+    border-left: 1px solid #a1a1a3
+    min-width: 201.3px
+    width: 201.3px
+    &.going
+      background-color: $orange_title_color
+      color: $main_white
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      align-items: center
+      text-align: center
+      .who-going
+        color: $main_white
+        font-family: 'AvenirNextLTPro'
+        font-weight: bold
+        padding-top: 0
+    .change_rsvp
+      color: $main_white
+      font-size: 12px
+    .event-go, .event-not-go
+      outline: none
+      border-radius: 10px
+      border: 2px solid #959393
+      color: #959393
+      background-color: $main_white
+      font-family: 'AvenirNextLTPro-Demi'
+      font-size: 16px
+      line-height: 1.38
+      display: flex
+      justify-content: center
+      align-items: center
+      margin-bottom: 15px
+      padding: 10px 0
+      text-decoration: none
+      &:hover, &.selected
+        color: $main_white
+        background-color: #727c8b
+    .who-going
+      font-family: 'AvenirNextLTPro-Demi'
+      font-size: 15px
+      line-height: 1.4
+      color: $main_dark
+      padding-top: 30px
+
+.event-sharing-wrap
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: 22px 0
+  border-top: 1px solid $main_dark
+  border-bottom: 1px solid $main_dark
+  margin-bottom: 30px
+  margin-top: 43px
+  span
+    font-family: 'AvenirNextLTPro-Demi'
+    font-size: 20px
+    color: $main_dark
+    text-transform: uppercase
+    padding-right: 20px
+  a
+    padding-right: 7px
+    i
+     width: 45px
+     height: 47px
+
+
+.past-event
+  .event-date-time
+    color: #a6a6a6
+
+
+
+.posts-black
+  list-style: disc!important
+  padding-inline-start: 40px!important
+  .post-item
+    .post-link
+      color: $main_dark!important
+
+
+.live-sec
+  section
+    margin-top: 0!important
+
+
+
+
+
+.rsvp-modal-controls
+  display: flex
+  flex-direction: column
+  border-radius: 0 20px 20px 0
+  padding: 21px
+  background-color: $main_white
+  align-items: center
+  &.going
+    background-color: $orange_title_color
+    color: $main_white
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    text-align: center
+    .who-going
+      color: $main_white
+      font-family: 'AvenirNextLTPro'
+      font-weight: bold
+      padding-top: 0
+  .cancel-btn
+    color: #fa4616
+    font-size: 16px
+    margin-top: 20px
+    outline: none
+    &:hover, &:focus
+      text-decoration: underline
+  .change_rsvp
+    color: $main_white
+    font-size: 12px
+  .event-go, .event-not-go
+    outline: none
+    border-radius: 10px
+    border: 2px solid #959393
+    color: #959393
+    background-color: $main_white
+    font-family: 'AvenirNextLTPro-Demi'
+    font-size: 16px
+    line-height: 1.38
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-bottom: 15px
+    padding: 10px 0
+    text-decoration: none
+    width: 200px
+    &:hover, &.selected
+      color: $main_white
+      background-color: #727c8b
+
+.refresh-icn
+  display: none
+  width: 22px
+  height: 22px
+  -webkit-mask-image: url("../img/refresh.svg")
+  mask-image: url("../img/refresh.svg")
+  background-size: cover
+  background-color: #fa4616
+  background-repeat: no-repeat
+  transform: rotate(360deg)
+  animation: refresh 0.8s infinite linear
+  margin-right: 10px
+
+
+
+
+@-webkit-keyframes refresh
+  0%
+    -moz-transform: rotate(0deg)
+    -webkit-transform: rotate(0deg)
+
+  100%
+    -moz-transform: rotate(360deg)
+    -webkit-transform: rotate(360deg)
+
+
+@-moz-keyframes refresh
+  0%
+    -moz-transform: rotate(0deg)
+    -webkit-transform: rotate(0deg)
+
+  100%
+    -moz-transform: rotate(360deg)
+    -webkit-transform: rotate(360deg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61c43473-77ba-4e8f-865d-3f7af9d8eb21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/networking-detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networking.html" beforeDir="false" afterPath="$PROJECT_DIR$/networking.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/networking.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/networking.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/responsive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/responsive.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/widgets.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/widgets.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProjectId" id="1iUomwRB1AADJBnOwfCCQkneXj3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,6 +58,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\echo" />
       <recent name="C:\Projects\ECHO v2" />
     </key>
   </component>
@@ -132,6 +139,15 @@
       <workItem from="1606983150132" duration="25393000" />
       <workItem from="1607333578406" duration="3149000" />
       <workItem from="1607344113025" duration="3727000" />
+      <workItem from="1607416498913" duration="16553000" />
+      <workItem from="1607503366978" duration="13245000" />
+      <workItem from="1607596890455" duration="12738000" />
+      <workItem from="1607674176458" duration="20324000" />
+      <workItem from="1607935307001" duration="5824000" />
+      <workItem from="1608127014079" duration="644000" />
+      <workItem from="1608197320091" duration="614000" />
+      <workItem from="1608296395741" duration="3476000" />
+      <workItem from="1608542594560" duration="47368000" />
     </task>
     <servers />
   </component>
@@ -155,11 +171,11 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="480" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1602487231902" />
-    <state x="495" y="157" key="FileChooserDialogImpl" timestamp="1606227121314">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1608036009182">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="495" y="157" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606227121314" />
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1605269174186" />
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1608036009182" />
     <state x="301" y="75" key="SettingsEditor" timestamp="1602536664457">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -176,10 +192,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="553" y="256" key="publish.login/0.0.1366.728@0.0.1366.728" timestamp="1606906430420" />
-    <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1606818449952">
+    <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1608650226368">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="456" y="195" width="672" height="677" key="run.anything.popup/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1606818449952" />
+    <state x="456" y="195" width="672" height="677" key="run.anything.popup/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1608650226368" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1603114139485">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
