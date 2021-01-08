@@ -85,10 +85,8 @@
   .tip-wrap
     .tip-video
       .tip-play-icon
-        width: 122px
-        height: 122px
-        top: 30%
-        left: 36%
+        width: 100px
+        height: 100px
   .leaderboard-page
     h3
       font-size: 22px
@@ -142,6 +140,8 @@
 
 
 @media screen and (max-width: 820px)
+  .static-tips
+    grid-template-columns: repeat(2, 1fr)
   .related-articles-wrap
     .tips-slider
       .tip-wrap
@@ -178,6 +178,16 @@
 
 
 @media screen and (max-width: 768px)
+  .tip-wrap
+    .tip-video
+      .tip-play-icon
+        width: 130px
+        height: 130px
+  .upcoming_short_desc
+    text-align: center
+  .event-header
+    .event-title
+      font-size: 30px
   .uag-users
   .member-wrap
     padding-bottom: 30px
@@ -638,8 +648,6 @@
       .tip-play-icon
         width: 80px
         height: 80px
-        top: 36%
-        left: 40%
   .main-banner.uag-banner
     .banner-wrap
       .banner-content
@@ -719,6 +727,11 @@
             margin-left: 15px
 
 @media screen and (max-width: 575px)
+  .static-tips
+    grid-template-columns:  1fr
+  #calendar_modal
+  .modal-body
+    padding: 2rem
   .rsvp-wrap
     flex-direction: column
     .rsvp-controls
@@ -969,8 +982,9 @@
 @media screen and (max-width: 400px)
   .section-header
     .header-wrap
+      background-color: $main_dark
       &:before
-        width: auto
+        width: 0
       .section-header-part
         display: none
       .header-title
@@ -1041,7 +1055,7 @@
   .section-header
     .header-wrap
       &:before
-        width: 65%
+        width: 0
       .header-icon
         padding: 0 20px
       .section-header-part

@@ -138,13 +138,13 @@
   width: 100%
 .event-item
   display: flex
-  border-top: 1px solid #959493
+  border-top: 2px solid #dedddd
   width: 100%
   padding-top: 17px
   padding-bottom: 17px
   position: relative
   &:last-child
-    border-bottom: 1px solid #959493
+    /*border-bottom: 1px solid #959493*/
   &:first-child
     margin-top: 30px
     border-top: none
@@ -218,7 +218,6 @@
   .member-wrap
     .member-photo
       padding-left: 20px
-      padd
       img
         width: 202px
         height: 205px
@@ -233,6 +232,8 @@
   width: 100%
   .event-item.upcomming
     border: none
+    &:not(:last-child)
+      border-bottom: 2px solid #dedddd
     .event-info
       .event-date
         font-family: 'AvenirNextLTPro'
@@ -242,12 +243,13 @@
         .e-date
           &:after
             content: " • "
-            vertical-align: sub
+            vertical-align: baseline
 
       .event-title
         padding-top: 10px
 
-
+.upcoming_short_desc
+  width: 100%
 
 .event-header
   font-family: 'AvenirNextLTPro-Demi'
@@ -266,7 +268,7 @@
   .event-date
     &:after
       content: " • "
-      vertical-align: sub
+      vertical-align: baseline
 
 .access-wrap
   padding: 22px 0
@@ -293,6 +295,8 @@
   display: flex
   justify-content: center
   align-items: center
+  p
+    width: 100%
   img
     width: 100%
   .event-play-icon
@@ -437,14 +441,12 @@
     color: #a6a6a6
 
 
-
 .posts-black
   list-style: disc!important
   padding-inline-start: 40px!important
   .post-item
     .post-link
       color: $main_dark!important
-
 
 .live-sec
   section
@@ -520,6 +522,7 @@
 
 
 
+
 @-webkit-keyframes refresh
   0%
     -moz-transform: rotate(0deg)
@@ -539,14 +542,61 @@
     -moz-transform: rotate(360deg)
     -webkit-transform: rotate(360deg)
 
+.calendar_description
+  color: #9ba2ad
+  text-align: center
+
+.calendar_links
+  padding-top: 30px
+  .calendar_link
+    display: flex
+    width: 100%
+    border: 1px solid #9ba2ad
+    margin-bottom: 10px
+    border-radius: 10px
+    &:hover
+      background-color: #e0e0e0
+    a
+      padding: 15px
+      width: 100%
+      align-items: center
+      display: flex
+      justify-content: flex-start
+      font-size: 17px
+      color: #000000
+      font-family: 'AvenirNextLTPro'
+      font-weight: lighter
+      position: relative
+      &:hover
+        text-decoration: none
+        outline: none
+      &:after
+        content: "\203A"
+        font-size: 30px
+        line-height: 10px
+        text-align: center
+        height: 20px
+        color: #9ba2ad
+        position: absolute
+        right: 15px
+      i
+        margin-right: 15px
+
+#calendar_modal
+  .modal-body
+    padding: 5rem
 
 
 
-
-
-
-
-
+.get_past_events
+  outline: none
+  &:focus
+    color: $main_white
+    outline: none
+  .refresh-icn
+    width: 30px
+    height: 30px
+    background-color: $main_white
 
 
 
