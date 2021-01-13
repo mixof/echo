@@ -7,10 +7,10 @@
     <list default="true" id="61c43473-77ba-4e8f-865d-3f7af9d8eb21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/landing.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/landing.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/networking.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/networking.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/responsive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/responsive.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/widgets.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/widgets.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,9 +194,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="456" y="195" width="672" height="677" key="run.anything.popup/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1608650226368" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1603114139485">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="395" y="152" width="672" height="574" key="search.everywhere.popup" timestamp="1610535812477">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="395" y="152" width="672" height="574" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1610535812477" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1603114139485" />
   </component>
 </project>
