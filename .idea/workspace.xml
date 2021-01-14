@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61c43473-77ba-4e8f-865d-3f7af9d8eb21" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/landing.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/landing.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/networking.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/networking.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +148,9 @@
       <workItem from="1608542594560" duration="47368000" />
       <workItem from="1608805267955" duration="8659000" />
       <workItem from="1609160111737" duration="27419000" />
+      <workItem from="1610540605934" duration="10426000" />
+      <workItem from="1610613254904" duration="13377000" />
+      <workItem from="1610664740512" duration="877000" />
     </task>
     <servers />
   </component>
@@ -153,10 +158,11 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="392" y="88" key="#Deployment" timestamp="1603114224202">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="2312" y="88" key="#Deployment" timestamp="1610620188253">
+      <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Deployment/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1603114224202" />
+    <state x="2312" y="88" key="#Deployment/1920.0.1600.860/0.0.1920.1040@1920.0.1600.860" timestamp="1610620188253" />
     <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603114145931">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

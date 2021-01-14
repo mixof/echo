@@ -3,12 +3,21 @@
   width: 100%
   .landing-header-wrap
     width: 100%
-    max-width: 1600px
     height: 774px
     background: url("../img/landing-banner.png")
     background-repeat: no-repeat
     .container
       height: 100%
+      .um-register
+        .title-font, #um-submit-btn
+          display: none!important
+        .um-half
+          width: 100%!important
+          float: none!important
+          display: flex
+      .um
+        margin-bottom: 0!important
+
       .banner-content
         z-index: 1
         display: flex
@@ -34,10 +43,9 @@
             padding-bottom: 16px
             display: flex
             .marked_icn
-              width: 47px
+              width: 37px
               height: 31px
               background-repeat: no-repeat
-              display: inline-block
               background: url('../img/landing-checkmark.png')
               background-size: contain
               margin-right: 11.5px
@@ -54,6 +62,7 @@
             font-size: 20px
             line-height: 1.4
             color: #000000
+            text-align: center
           span
             font-family: 'AvenirNextLTPro'
             padding-top: 13px
@@ -71,10 +80,18 @@
               margin-bottom: 16px
               color: $main_white
               text-decoration: none
+              display: flex
+              justify-content: center
+              align-items: center
               &.facebook-login
                 background-color: #3c5a9a
               &.google-login
                 background-color: #4286f5
+              i
+                font-size: 36px
+                left: auto!important
+                width: auto
+                margin-right: 15px
               span
                 color: $main_white
           .email-signup
@@ -179,7 +196,20 @@
 
 
 
+.main-landing-link
+  text-align: center
+  width: 100%
+  a
+    font-family: 'AvenirNextLTPro'
+    font-size: 20px
+    color: $orange_title_color
+    line-height: 1.4
+    margin-top: 81px
+    padding-bottom: 75px
 
+.bolder-text
+  font-family: 'AvenirNextLTPro-Demi'
+  display: contents
 
 .landing-logo
   z-index: 1
@@ -187,3 +217,81 @@
   height: 110px
   width: 280px
   margin-top: 20px
+  margin-left: 25px
+
+@media screen and (max-width: 862px)
+  .landing-header
+    .landing-header-wrap
+      .container
+        .banner-content
+          .green-title
+            font-size: 30px
+
+@media screen and (max-width: 768px)
+  .landing-logo
+    position: relative
+    text-align: center
+    margin: 0 auto
+    display: block
+    width: 178px
+    height: 70px
+  .landing-header
+    padding-top: 29px
+    .landing-header-wrap
+      background: #000000
+      height: auto
+      .container
+        .banner-content
+          .green-title
+            text-align: center
+            padding-top: 15px
+          .landing-signup-form
+            margin-top: 20px
+          .landing-tips
+            max-width: 100%
+            padding-top: 50px
+            padding-bottom: 50px
+  .testimonials-list
+    grid-template-columns: 1fr
+    justify-content: center
+    align-items: center
+    .testimonial
+      margin: 0 auto
+
+  .brands
+    .brands-list
+     .brand
+       margin: 0 auto
+@media screen and (max-width: 502px)
+  .landing-header
+    .landing-header-wrap
+      .container
+        .banner-content
+          .landing-signup-form
+            .form-controls
+              a
+                justify-content: space-around
+                i
+                  margin-right: 0
+
+@media screen and (max-width: 420px)
+  .landing-header
+    .landing-header-wrap
+      .container
+        .banner-content
+          .landing-signup-form
+            padding: 31px 22px
+            .form-controls
+              a
+                justify-content: space-around
+                i
+                  margin-right: 0
+            .black-title
+              font-size: 18px
+            span
+              font-size: 14px
+            .email-signup
+              font-size: 14px
+  .brands
+    .brands-list
+      grid-template-columns: 1fr
