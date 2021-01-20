@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61c43473-77ba-4e8f-865d-3f7af9d8eb21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/landing.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/landing.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/networking.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/networking.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/responsive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/responsive.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +147,8 @@
       <workItem from="1610540605934" duration="10426000" />
       <workItem from="1610613254904" duration="13377000" />
       <workItem from="1610664740512" duration="877000" />
+      <workItem from="1610741678914" duration="7314000" />
+      <workItem from="1611007396373" duration="17462000" />
     </task>
     <servers />
   </component>
@@ -175,10 +173,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="480" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1602487231902" />
-    <state x="495" y="157" key="FileChooserDialogImpl" timestamp="1608917679556">
+    <state x="495" y="157" key="FileChooserDialogImpl" timestamp="1611002226011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="495" y="157" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608917679556" />
+    <state x="495" y="157" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1611002226011" />
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1608036009182" />
     <state x="301" y="75" key="SettingsEditor" timestamp="1602536664457">
       <screen x="0" y="0" width="1600" height="860" />
@@ -192,10 +190,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="507" y="163" width="585" height="534" key="find.popup/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1602487026853" />
-    <state x="553" y="256" key="publish.login" timestamp="1606906430420">
+    <state x="553" y="256" key="publish.login" timestamp="1610964765345">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="553" y="256" key="publish.login/0.0.1366.728@0.0.1366.728" timestamp="1606906430420" />
+    <state x="553" y="256" key="publish.login/0.0.1366.728@0.0.1366.728" timestamp="1610964765345" />
     <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1608650226368">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

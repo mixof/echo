@@ -178,6 +178,9 @@
 
 
 @media screen and (max-width: 768px)
+  .leaderboard-page
+    .check-out-all-ways
+      border: none!important
   .tip-wrap
     .tip-video
       .tip-play-icon
@@ -560,6 +563,24 @@
          display: block
        ul
          display: none
+         .menu-item-has-children
+           .um-theme-menu-toggle
+             display: none!important
+           .sub-menu
+             display: block!important
+             padding-top: 10px!important
+             position: relative
+             opacity: 1
+             background-color: inherit
+             padding-inline-start: 40px!important
+             margin-left: 30px!important
+             li.menu-item
+               border: none!important
+               a
+                 color: $main_white!important
+                 padding-top: 0
+                 padding-left: 0
+
 
 
 @media screen and (max-width: 678px)
@@ -762,9 +783,10 @@
   .widget-wrap
     justify-content: center
     padding-top: 20px
-
-
-
+@media screen and (max-width: 550px)
+  .header-notification-box
+    .dropdown-menu
+      left: -180px!important
 @media screen and (max-width: 520px)
   .network-banner.main-banner
     .banner-content
@@ -1092,6 +1114,9 @@
        height: auto
 
 @media screen and (max-width: 375px)
+  .banner-title
+    h1, .h1
+      font-size: 40px
   .swiper-slide
     width: 100%
   .network-banner.main-banner
