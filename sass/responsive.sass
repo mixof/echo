@@ -577,11 +577,13 @@
              margin-left: 30px!important
              li.menu-item
                border: none!important
+               &:last-child
+                 padding-bottom: 0
                a
                  color: $main_white!important
                  padding-top: 0
                  padding-left: 0
-
+                 padding-bottom: 0
 
 
 @media screen and (max-width: 678px)
@@ -749,6 +751,15 @@
             margin-left: 15px
 
 @media screen and (max-width: 575px)
+  .growing-sec
+    .growing-content
+      .growing-menu-wrap
+        .growing-menu
+          padding-inline-start: 0
+
+  .header-notification-box
+    .dropdown-menu
+      left: -80px!important
   .static-tips
     grid-template-columns:  1fr
   #calendar_modal
@@ -787,7 +798,7 @@
 @media screen and (max-width: 550px)
   .header-notification-box
     .dropdown-menu
-      left: -180px!important
+      left: -80px!important
 @media screen and (max-width: 520px)
   .network-banner.main-banner
     .banner-content
@@ -974,6 +985,13 @@
       margin-bottom: 5px
 
 @media screen and (max-width: 475px)
+  .growing-sec
+    .growing-header
+      .section-title
+        font-size: 25px
+      .section-subtitle
+        font-size: 18px
+
   .community-leaderboard-widget
     .leaderboard-header
       .leaderboard-title
@@ -1096,7 +1114,7 @@
         .banner-controls
           padding-top: 25px
           .filled-btn, .transparent-btn, .transparent-btn-green, .filled-btn-green
-            height: 30px
+            height: 40px
             width: 120px
             font-size: 16px
           .transparent-btn,.transparent-btn-green

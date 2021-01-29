@@ -1,212 +1,88 @@
-jQuery(function($) {
-    $(window).load(function() {
-        // console.log(fmwp_is_busy( 'individual_forum' ));
-        if(fmwp_is_busy( 'individual_forum' ))
-        {
-            let timerId = setInterval(function(){
-                // console.log(fmwp_is_busy( 'individual_forum' ));
-                if(!fmwp_is_busy( 'individual_forum' )){
+<# if ( data.topics.length > 0 ) { #>
+<# _.each( data.topics, function( topic, key, list ) { #>
 
-                    $('#loading-animation').hide();
-                    clearInterval(timerId);
-                }
-            }, 300);
+<div class="fmwp-topic-row<# if ( topic.is_trashed ) { #> fmwp-topic-trashed<# } #><# if ( topic.is_spam ) { #> fmwp-topic-spam<# } #><# if ( topic.is_pending ) { #> fmwp-topic-pending<# } #><# if ( topic.is_reported ) { #> fmwp-topic-reported<# } #><# if ( topic.is_locked ) { #> fmwp-topic-locked<# } #><# if ( topic.is_pinned ) { #> fmwp-topic-pinned<# } #><# if ( topic.is_announcement ) { #> fmwp-topic-announcement<# } #><# if ( topic.is_global ) { #> fmwp-topic-global<# } #><# if ( topic.tags.length > 0 ) { #> fmwp-topic-tagged<# } #>"
+    data-topic_id="{{{topic.topic_id}}}"
+    data-is_author="<# if ( topic.is_author ) { #>1<# } #>"
+    data-reported="<# if ( topic.is_reported_ms ) { #>1<# } #>"
+    data-trashed="<# if ( topic.is_trashed ) { #>1<# } #>"
+    data-locked="<# if ( topic.is_locked ) { #>1<# } #>"
+    data-pinned="<# if ( topic.is_pinned ) { #>1<# } #>">
 
-        }else $('#loading-animation').hide();
+        <div class="fmwp-topic-avatar fmwp-responsive fmwp-ui-xs">
+        <a href="{{{topic.author_url}}}" title="{{{topic.author}}} Profile" data-fmwp_tooltip="{{topic.author_card}}" data-fmwp_tooltip_id="fmwp-user-card-tooltip">
+        {{{topic.author_avatar}}}
+</a>
+</div>
 
-    });
-    $(document).ready(function (e) {
+<div class="fmwp-topic-row-lines">
+<div class="fmwp-topic-row-line fmwp-topic-primary-data">
+<span class="fmwp-topic-title-line">
+<a href="{{{topic.permalink}}}">
+<span class="fmwp-topic-status-marker fmwp-topic-locked-marker fmwp-tip-n"
+title="Locked">
+<i class="fas fa-lock"></i>
+</span>
+<span class="fmwp-topic-status-marker fmwp-topic-pinned-marker fmwp-tip-n"
+title="Pinned">
+<i class="fas fa-thumbtack"></i>
+</span>
+<span class="fmwp-topic-status-marker fmwp-topic-announcement-marker fmwp-tip-n"
+title="Announcement">
+<i class="fas fa-bullhorn"></i>
+</span>
+<span class="fmwp-topic-status-marker fmwp-topic-global-marker fmwp-tip-n"
+title="Global">
+<i class="fas fa-globe-americas"></i>
+</span>
+<span class="fmwp-topic-title">
+{{{topic.title}}}
+</span>
+</a>
+</span>
+<span class="fmwp-topic-tags-wrapper">
+<# if ( topic.tags.length > 0 ) { #>
+<# _.each( topic.tags, function( tag, key, list ) { #>
+<span class="fmwp-topic-tag"><a href="{{{tag.href}}}">{{{tag.name}}}</a></span>
+<# }); #>
+<# } #>
+</span>
 
-        $('.js-accordion-title').on('click', function () {
+</div>
 
-            $(this).next().slideToggle(200);
+<div class="fmwp-topic-row-line fmwp-topic-statistics-data">
+<div class="fmwp-topic-replies fmwp-responsive fmwp-ui-s fmwp-ui-m fmwp-ui-l fmwp-ui-xl">
+<# _.each( topic.people, function( user, key, list ) { #>
+<a href="{{{user.url}}}">{{{user.avatar}}}</a>
+<# }); #>
+</div>
 
-            $(this).toggleClass('open', 200);
-        });
-
-        $('.tabs-wrap .nav-tabs a').click(function(e){
-            e.preventDefault();
-            console.log('rfd');
-            $(this).tab('show');
-        });
-
-
-        /*-------------------------COUTDOWN TIMER -------------------------------------------*/
-
-// Set the date we're counting down to
-        var countDownDate = new Date("Jan 31, 2021 12:37:25").getTime();
-
-// Update the count down every 1 second
-        var x = setInterval(function() {
-
-            // Get today's date and time
-            var now = new Date().getTime();
-
-            // Find the distance between now and the count down date
-            var distance = countDownDate - now;
-
-            // Time calculations for days, hours, minutes and seconds
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-
-            if(days>9)
-            {
-                days=days.toString();
-                $('.coutdown-timer .days .num-wrap').html('');
-
-                for (var i = 0, len = days.length; i < len; i += 1) {
-
-                    $('.coutdown-timer .days .num-wrap').append('<span class="timer-numb">'+days.charAt(i)+'</span>');
-                }
-            }
-            else{
-                $('.coutdown-timer .days .num-wrap').html('');
-                $('.coutdown-timer .days .num-wrap').append('<span class="timer-numb">0</span>');
-                $('.coutdown-timer .days .num-wrap').append('<span class="timer-numb">'+days+'</span>');
-
-            }
+<div class="fmwp-topic-statistics-section">
+<div class="fmwp-topic-replies-count" title="{{{topic.respondents_count}}} people have replied">
+<span class="fmwp-responsive fmwp-ui-xs">{{{topic.replies}}} replies</span>
+<span class="fmwp-responsive fmwp-ui-s fmwp-ui-m fmwp-ui-l fmwp-ui-xl">{{{topic.replies}}}</span>
+</div>
 
 
-
-            if(hours>9)
-            {
-                hours=hours.toString();
-                $('.coutdown-timer .hours .num-wrap').html('');
-
-                for (var i = 0, len = hours.length; i < len; i += 1) {
-
-                    $('.coutdown-timer .hours .num-wrap').append('<span class="timer-numb">'+hours.charAt(i)+'</span>');
-                }
-            }
-            else{
-                $('.coutdown-timer .hours .num-wrap').html('');
-                $('.coutdown-timer .hours .num-wrap').append('<span class="timer-numb">0</span>');
-                $('.coutdown-timer .hours .num-wrap').append('<span class="timer-numb">'+hours+'</span>');
-
-            }
-
-            if(minutes>9)
-            {
-                minutes=minutes.toString();
-                $('.coutdown-timer .minutes .num-wrap').html('');
-
-                for (var i = 0, len = minutes.length; i < len; i += 1) {
-
-                    $('.coutdown-timer .minutes .num-wrap').append('<span class="timer-numb">'+minutes.charAt(i)+'</span>');
-                }
-            }
-            else{
-                $('.coutdown-timer .minutes .num-wrap').html('');
-                $('.coutdown-timer .minutes .num-wrap').append('<span class="timer-numb">0</span>');
-                $('.coutdown-timer .minutes .num-wrap').append('<span class="timer-numb">'+minutes+'</span>');
-
-            }
-
-            if(seconds>9)
-            {
-                seconds=seconds.toString();
-                $('.coutdown-timer .seconds .num-wrap').html('');
-
-                for (var i = 0, len = seconds.length; i < len; i += 1) {
-
-                    $('.coutdown-timer .seconds .num-wrap').append('<span class="timer-numb">'+seconds.charAt(i)+'</span>');
-                }
-            }
-            else{
-                $('.coutdown-timer .seconds .num-wrap').html('');
-                $('.coutdown-timer .seconds .num-wrap').append('<span class="timer-numb">0</span>');
-                $('.coutdown-timer .seconds .num-wrap').append('<span class="timer-numb">'+seconds+'</span>');
-
-            }
+<div class="fmwp-topic-likes" title="{{{topic.likes}}} people like this">
+<span class="fmwp-responsive fmwp-ui-xs">{{{topic.likes}}} likes</span>
+<span class="fmwp-responsive fmwp-ui-s fmwp-ui-m fmwp-ui-l fmwp-ui-xl">{{{topic.likes}}}</span>
+</div>
 
 
-            // If the count down is finished, write some text
-            if (distance < 0) {
-                clearInterval(x);
-                $('.coutdown-timer').html("EXPIRED");
-            }
-        }, 1000);
+<div class="fmwp-topic-views" title="Views">
+<span class="fmwp-responsive fmwp-ui-xs">{{{topic.views}}} views</span>
+<span class="fmwp-responsive fmwp-ui-s fmwp-ui-m fmwp-ui-l fmwp-ui-xl">{{{topic.views}}}</span>
+</div>
 
+<div class="fmwp-topic-last-upgrade" title="Last Updated">
+{{{topic.last_upgrade}}}
+</div>
+</div>
+</div>
+</div>
 
-
-
-        /*-------------------------END COUTDOWN TIMER -------------------------------------------*/
-
-        $('.hamburger').on('click', function (e) {
-
-            openCloseMenu();
-        });
-
-        $('.mobile-overlay').on('click', function (e) {
-
-            openCloseMenu();
-
-        });
-
-
-        var swiper1 = new Swiper('.swiper-container.members-list', {
-            spaceBetween: 15,
-            slidesPerView: 'auto',
-            loop: true,
-            pagination: {
-                el: '.members-list .swiper-pagination',
-                clickable: true
-            },
-            breakpoints: {
-                // when window width is >= 320px
-                0: {
-                   // slidesPerView: 1
-                },
-
-                520: {
-                   // slidesPerView: 2,
-                },
-
-                820: {
-                    //slidesPerView: 3,
-                    //spaceBetween: 15
-                }
-            }
-        });
-
-
-        var swiper2 = new Swiper('.tips-slider .swiper-container', {
-            spaceBetween: 12,
-            slidesPerView: 'auto',
-            loop: true,
-            observer: true,
-            observeParents: true,
-            pagination: {
-                el: '.tips-slider .swiper-pagination',
-                clickable: true
-            },
-            breakpoints: {
-                // when window width is >= 320px
-                0: {
-                  //  slidesPerView: 1
-                },
-
-                520: {
-                    //slidesPerView: 2,
-                },
-
-                820: {
-                    //slidesPerView: 3,
-                    //spaceBetween: 15
-                }
-            }
-        });
-
-
-    });
-
-    function openCloseMenu() {
-        $('.mobile-overlay').toggleClass('is-active');
-        $('.hamburger').toggleClass('is-active');
-        $('.main-menu ul').toggleClass('is-mobile');
-    }
-
-});
+<div class="fmwp-topic-actions">
+</div>
+</div>		<# }); #>
+<# } #>

@@ -7,8 +7,10 @@
     <list default="true" id="61c43473-77ba-4e8f-865d-3f7af9d8eb21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/fonts.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/fonts.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/responsive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/responsive.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +151,10 @@
       <workItem from="1610664740512" duration="877000" />
       <workItem from="1610741678914" duration="7314000" />
       <workItem from="1611007396373" duration="27778000" />
+      <workItem from="1611663853012" duration="1322000" />
+      <workItem from="1611672830736" duration="2747000" />
+      <workItem from="1611834033083" duration="5380000" />
+      <workItem from="1611918315721" duration="7011000" />
     </task>
     <servers />
   </component>
@@ -165,31 +171,16 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1603114145931" />
-    <state x="536" y="232" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602536433790">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="536" y="232" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1602536433790" />
-    <state x="480" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602487231902">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="480" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1602487231902" />
-    <state x="495" y="157" key="FileChooserDialogImpl" timestamp="1611002226011">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="2500" y="185" key="FileChooserDialogImpl" timestamp="1611669962010">
+      <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="495" y="157" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1611002226011" />
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1608036009182" />
-    <state x="301" y="75" key="SettingsEditor" timestamp="1602536664457">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="301" y="75" key="SettingsEditor/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1602536664457" />
+    <state x="2500" y="185" key="FileChooserDialogImpl/1920.0.1600.860/0.0.1920.1040@1920.0.1600.860" timestamp="1611669962010" />
     <state x="656" y="329" key="WebDeployment.AddServerDialog.v.1" timestamp="1603114187810">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="656" y="329" key="WebDeployment.AddServerDialog.v.1/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1603114187810" />
-    <state x="507" y="163" width="585" height="534" key="find.popup" timestamp="1602487026854">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="507" y="163" width="585" height="534" key="find.popup/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1602487026853" />
     <state x="553" y="256" key="publish.login" timestamp="1610964765345">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

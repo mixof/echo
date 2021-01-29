@@ -602,6 +602,8 @@ footer
         color: $main_white
         font-size: 20px
         font-family: 'AvenirNextLTPro-Demi'
+        margin-top: 5px
+        margin-bottom: 5px
     .info-content
       margin-top: 17px
       display: flex
@@ -846,39 +848,47 @@ footer
 
 /**-------------------------------------------------------GROWING SECTION----------------------------------------------**/
 .growing-sec
-  padding: 90px 0
-  background-color: $main_dark
+  padding: 0
+  background-color: $main_white
   font-family: "AvenirNextLTPro"
+  .growing-wrap
+    background: url('../img/growing.png')
+    background-position: center center
+    background-size: cover
+    background-repeat: no-repeat
   .growing-header
-    text-align: center
+    text-align: left
     .section-title
       font-family: "AvenirNextLTPro"
-      font-size: 60px
+      font-size: 45px
       color: $main_light_green
       text-transform: uppercase
       font-weight: bold
       line-height: 1.4
+      padding-top: 30px
     .section-subtitle
       font-family: "AvenirNextLTPro"
       font-size: 20px
       color: $main_white
       line-height: 1.4
       text-align: center
-      padding-top: 23px
+      padding-top: 18px
+      strong
+        color: $orange_title_color
   .growing-content
     margin-top: 39px
-    padding: 28px 0
-    border-top: 1px solid $main_white
-    border-bottom: 1px solid $main_white
+    padding: 28px
+    padding-bottom: 70px
+    padding-left: 34px
     .growing-menu-wrap
       &:not(:last-child)
         border-right: 1px solid #676767
       .growing-menu
         color: $main_white
-
+        padding-inline-start: 54px
         li
-          padding-bottom: 34px
-          font-size: 19px
+          padding-bottom: 12px
+          font-size: 15px
           line-height: 1.42
           &:first-child
             padding-top: 34px
@@ -888,15 +898,16 @@ footer
     .growing-btn
       font-family: 'AvenirNextLTPro-Demi'
       width: 100%
-      height: 78px
-      font-size: 33px
+      max-width: 494px
+      height: 63px
+      font-size: 26px
       line-height: 1.42
       color: $main_white
       display: flex
       justify-content: center
       align-items: center
       border-radius: 15px
-      margin-top: 51px
+      margin-top: 11px
 
 
 
@@ -926,6 +937,7 @@ footer
         border: 1px solid #b1b1b1
         width: 375.5px
         .member-photo
+          margin: 0 auto
           max-width: 383px
           display: flex
           justify-content: center
@@ -2511,6 +2523,55 @@ input[type=button].fmwp-reply-popup-discard,input[type=button]#fmwp-topic-popup-
 
 .dropdown-toggle
   display: inline-block
+
+.tip-content-wrap
+  a
+    color: $orange_title_color!important
+
+.fmwp-topic-left-panel
+  .fmwp-topic-sort-wrapper
+    display: none!important
+
+.sidebar
+  h2
+    font-size: 22px
+    padding: 1em 0
+
+.fmwp.fmwp-ui-xl
+  .fmwp-responsive
+    &:not(.fmwp-ui-xl)
+      display: none!important
+
+.public-banner
+  .banner-content
+    display: flex
+    justify-content: center
+    align-items: center
+    padding: 0
+    .content-wrap
+      padding: 60px 0
+      background-color: #000000c4
+      display: flex
+      justify-content: center
+      align-items: center
+      flex-direction: column
+      width: 100%
+      margin: 100px 0
+      max-width: 817px
+      .banner-title
+        font-size: 70px
+      .banner-subtitle
+        font-size: 35px
+      .banner-controls
+        .filled-btn, .transparent-btn
+          width: 209px
+          height: 52px
+          border-radius: 14px
+          font-size: 18px
+        .transparent-btn
+          border-width: 1px
+
+
 
 
 
