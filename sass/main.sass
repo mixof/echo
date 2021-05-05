@@ -414,16 +414,23 @@ footer
     z-index: 1
   .banner-wrap
     position: relative
+    height: 765px
+    display: flex
+    justify-content: center
+    align-items: center
     .banner-content
       padding-top: 60px
       padding-bottom: 60px
       position: relative
       z-index: 2
+      .content-wrap
+        margin: 0
       .banner-title
         font-family: "AvenirNextLTPro"
         font-size: 80px
         font-weight: bold
-        line-height: 1.4
+        line-height: 0.8
+        padding-bottom: 10px
         color: $main_light_green
         text-transform: uppercase
       .banner-subtitle
@@ -2267,7 +2274,7 @@ input[type=button].fmwp-reply-popup-discard,input[type=button]#fmwp-topic-popup-
     .banner-content
       text-align: center
       .banner-title
-        font-family: 'AvenirNextLTPro'
+        font-family: 'AvenirNextLTPro-Demi'
         font-weight: bold
         line-height: 1.4
         color: $main_white
@@ -2550,7 +2557,7 @@ input[type=button].fmwp-reply-popup-discard,input[type=button]#fmwp-topic-popup-
     padding: 0
     .content-wrap
       padding: 60px 0
-      background-color: #000000c4
+      background-color: transparent
       display: flex
       justify-content: center
       align-items: center
@@ -2573,9 +2580,217 @@ input[type=button].fmwp-reply-popup-discard,input[type=button]#fmwp-topic-popup-
 
 
 
+.um-register
+  .um-button
+    position: relative
+    i
+      font-size: 36px
+      position: absolute
+      left: 10px!important
+      top: 10px!important
+
+.um-register
+  .um-form
+    .um-button-social.um-button-google
+      position: relative
+      i
+        font-size: 36px
+        position: absolute
+        left: 10px!important
+        top: 10px!important
 
 
 /*------------------------------------------------END WORKSHOPS PAGE----------------------------------*/
+.comment_likes-wrap
+   display: inline-flex
+   justify-content: center
+   align-items: center
+   position: relative
+
+
+
+.emb-like-btn.comment_like
+   .refresh-icn
+      width: 16px
+      height: 16px
+      margin: 0
+
+
+.comment_likes-wrap
+   .likes_count
+     position: relative
+     border-radius: .25em
+     font-size: 12px
+     text-decoration: none
+     background-color: #fff
+     margin-left: 8px
+     line-height: 28px
+     display: inline-block
+     padding: 0 10px
+     box-shadow: 0 0 0 1px #bdbdbd inset
+     color: #616161
+     vertical-align: middle
+     text-align: center
+
+.comment_likes-wrap
+   .likes_count:after
+     content: ''
+     position: absolute
+     border: 1px solid transparent
+     background: #fff
+     border-bottom-color: #bdbdbd
+     left: -5px
+     top: 50%
+     border-left-color: #bdbdbd
+     transform: rotate(45deg) translatey(-50%)
+     width: 5px
+     height: 5px
+     margin: 0
+
+.likes-wrap
+  display: inline-flex
+  justify-content: center
+  align-items: center
+  position: relative
+  border-left: 1px solid #4a4a4a
+  padding: 8px 10px
+
+.offer-likes
+  margin-left: 10px
+  .likes-wrap
+    padding: 0px 10px
+
+.tip-likes
+  display: inline-block
+  .emb-like-btn
+    display: flex!important
+  .likes-wrap
+    padding: 0px 10px
+
+
+.like-icn
+    background: url("../img/like.svg") no-repeat
+    height: 16px
+    width: 16px
+    display: inline-block
+
+
+.like-icn.selected
+    height: 16px
+    width: 16px
+    display: inline-block
+    filter: invert(44%) sepia(40%) saturate(3852%) hue-rotate(338deg) brightness(100%) contrast(111%)
+
+
+.emb-like-btn
+    display: flex
+    justify-content: center
+    align-items: center
+    cursor: pointer
+    background: transparent
+    position: relative
+    vertical-align: middle
+    border-radius: .25em
+    box-shadow: none
+    border: none
+    text-align: center
+    transition-property: none
+    cursor: pointer
+    background-color: #e0e0e0
+    height: 30px
+    width: 50px
+    padding-right: 0px!important
+
+
+.emb-like-btn
+  .refresh-icn
+     width: 16px
+     height: 16px
+     margin: 0
+
+
+.likes-wrap
+  .likes_count
+    position: relative
+    border-radius: .25em
+    font-size: 12px
+    text-decoration: none
+    background-color: #fff
+    margin-left: 8px
+    line-height: 28px
+    display: inline-block
+    padding: 0 10px
+    box-shadow: 0 0 0 1px #bdbdbd inset
+    color: #616161
+    vertical-align: middle
+    text-align: center
+
+
+.likes-wrap
+  .likes_count:before
+    content: ''
+    position: absolute
+    border: 1px solid transparent
+    background: #fff
+    border-bottom-color: #bdbdbd
+    left: -5px
+    top: 50%
+    border-left-color: #bdbdbd
+    transform: rotate(45deg) translatey(-50%)
+    width: 5px
+    height: 5px
+    margin: 0
+
+.forums-banner
+  .banner-wrap
+    .banner-content
+      padding-top: 6px
+      padding-bottom: 0px
+      .banner-title
+        font-size: 80px
+        font-family: 'AvenirNextLTPro-Demi'
+      .banner-features
+        padding-top: 30px
+.main-banner.workshops-banner
+  .banner-wrap
+    .banner-content
+      padding-top: 0
+      padding-bottom: 0px
+      .banner-title
+        font-size: 80px
+        font-family: 'AvenirNextLTPro-Demi'
+      .banner-features
+        padding-top: 30px
+        ul
+          li
+            padding-bottom: 20px
+      .banner-controls
+        a
+          min-width: 200px!important
+          min-height: 49px!important
+
+
+.um-header, .um-member
+  .the-badge
+    img
+      width: 50px!important
+      height: 50px!important
+  span.um-badges
+    height: 50px!important
+
+.um-members-grid
+  .um-header
+    span.um-badges
+      min-height: 60px
+      height: auto!important
+  .um-member
+    span.um-badges
+      min-height: 60px
+      height: auto!important
+
+
 @import 'networking'
 @import "landing"
+@import "forum"
+@import "resources"
 @import 'responsive'

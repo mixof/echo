@@ -16,6 +16,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="23397739-0cff-4c9d-b5de-6db86981059c" name="ECHO-LIVE" url="http://76.74.132.59">
+        <fileTransfer host="76.74.132.59" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

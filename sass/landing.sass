@@ -1,3 +1,228 @@
+.full-width-container
+  max-width: 85%
+
+.full-width-container
+  max-width: 85%
+.landing-header.new
+  background-color: #000000
+  width: 100%
+  .landing-logo
+    z-index: 1
+    position: relative
+    display: flex
+    align-items: baseline
+    width: auto
+    margin-top: 0
+    img
+      height: 83px
+      width: 213px
+      margin-top: 20px
+      margin-left: 25px
+    .logo-text
+      text-decoration: none!important
+      color: $main_white
+      font-family: 'AvenirNextLTPro-Demi'
+      font-size: 20px
+      line-height: 1.8
+      outline: none
+      border-left: 2px solid $main_white
+      padding-left: 30px
+  .landing-header-wrap
+    width: 100%
+    height: 774px
+    background: url("../img/landing-header.png")
+    background-repeat: no-repeat
+    .container
+      height: 100%
+      .um-register
+        .title-font, #um-submit-btn
+          display: none!important
+        .um-half
+          width: 100%!important
+          float: none!important
+          display: flex
+      .banner-content.land2
+        height: 80%
+        .header-logos
+          display: grid
+          grid-template-columns: repeat(8,  1fr)
+          grid-gap: 10px
+          align-items: center
+          padding-top: 20px
+      .banner-content
+        z-index: 1
+        display: flex
+        align-items: center
+        justify-content: center
+        height: 100%
+        .landing-tips
+          .landing-tip
+            .bolder-text
+              font-size: 20px
+              font-weight: bold
+        .landing-signup-form
+          .black-title
+            font-size: 20px
+            font-family: 'AvenirNextLTPro'
+            font-weight: bold
+          .orange-title
+            font-family: 'AvenirNextLTPro-Demi'
+            font-size: 18px
+            color: #fa4616
+            padding-top: 10px
+
+        .green-title
+          color: $main_light_green
+          font-family: 'AvenirNextLTPro'
+          font-size: 50px
+          line-height: 1.4
+          padding-top: 0px
+          font-weight: bold
+        .landing-subtitle
+          font-family: 'AvenirNextLTPro-Demi'
+          font-size: 25px
+          color: $main_white
+          padding-top: 20px
+.join-bar
+  background-color: #2d2a29
+  padding: 70px 0
+  .bar-title
+    font-family: 'AvenirNextLTPro-Demi'
+    font-size: 20px
+    color: $main_light_green
+    padding-bottom: 35px
+    text-align: center
+  .bar-tips
+    display: flex
+    justify-content: center
+    align-items: center
+    ul
+      li
+        color: $main_white
+        font-family: 'AvenirNextLTPro'
+        font-size: 18px
+
+.redeem-sec
+  padding-top: 75px
+  padding-bottom: 75px
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.12)
+  .redeem-title
+    font-family: 'AvenirNextLTPro-Demi'
+    font-size: 20px
+    color: #2d2a29
+    text-align: center
+  .redeem-items
+    //display: flex
+    //justify-content: center
+    //align-items: center
+    padding-top: 60px
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+    grid-gap: 50px
+    align-items: center
+    justify-items: center
+    img:not(:last-child)
+      max-width: 200px
+      //padding-right: 50px
+
+.you-may-know
+  padding-top: 75px
+  padding-bottom: 75px
+  .sec-title
+    font-family: 'AvenirNextLTPro-Demi'
+    font-size: 20px
+    color: #2d2a29
+    text-align: center
+  .pro-tiles
+    display: grid
+    grid-template-columns: 254px 254px 254px
+    grid-gap: 10px
+    justify-content: center
+    padding-top: 30px
+  .pro-member-tile
+    display: flex
+    flex-direction: column
+    .pro-img
+      img
+        position: relative
+        width: 100%
+        height: 266px
+        object-fit: cover
+    .pro-data
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      padding-top: 25px
+      padding-bottom: 25px
+      background-color: $main_white
+      box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.12)
+      .pro-name
+        font-family: 'AvenirNextLTPro-Demi'
+        font-size: 15px
+        color: #2d2a29
+      .pro-business
+        font-family: 'AvenirNextLTPro'
+        font-size: 15px
+        color: #2d2a29
+
+  .testimonials
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-top: 42px
+    .testimonial
+      max-width: 381px
+      position: relative
+      .content
+        background-color: #2d2a29
+        padding-top: 40px
+        padding-left: 35px
+        padding-right: 35px
+        padding-bottom: 40px
+        height: 240px
+        .title
+          font-family: 'AvenirNextLTPro-Demi'
+          font-size: 20px
+          color: $main_white
+        .text
+          font-family: 'AvenirNextLTPro'
+          font-size: 12px
+          line-height: 1.33
+          color: $main_white
+          margin-top: 16px
+      .author-info
+        padding-top: 131px
+        padding-bottom: 37px
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16)
+        position: relative
+        .author-photo
+          img
+            width: 153px
+            height: 153px
+            border-radius: 50%
+            border: 4px solid white
+            position: absolute
+            top: -40px
+            left: calc(50% - 76px)
+        .author-name
+          font-family: 'AvenirNextLTPro-Demi'
+          font-size: 15px
+          color: #000000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .landing-header
   background-color: #000000
   width: 100%
@@ -57,6 +282,16 @@
           flex-direction: column
           justify-content: center
           align-items: center
+          .um-col-1, .um-button:not(.um-button-social)
+            display: none!important
+          .um-button-social
+            border-radius: 0!important
+          ._um_row_1
+            display: none!important
+          .um-form
+            form
+              margin: 0!important
+
           .black-title
             font-family: 'AvenirNextLTPro-Demi'
             font-size: 20px
@@ -83,17 +318,26 @@
               display: flex
               justify-content: center
               align-items: center
+              position: relative
               &.facebook-login
-                background-color: #3c5a9a
+                background-color: #4267B2
+                &:hover, &:focus, &:active
+                  background-color: #365899!important
               &.google-login
                 background-color: #4286f5
+                &:hover, &:focus, &:active
+                  background-color: #3574de!important
               i
-                font-size: 36px
-                left: auto!important
+                font-size: 38px
+                position: absolute
+                left: 10px!important
+                top: 10px!important
+
                 width: auto
                 margin-right: 15px
               span
                 color: $main_white
+                padding: 0!important
           .email-signup
             padding-top: 20px
             color: #000000
@@ -219,7 +463,25 @@
   margin-top: 20px
   margin-left: 25px
 
+@media screen and (max-width: 1350px)
+  .redeem-sec
+    .redeem-items
+      //grid-template-columns: 1fr 1fr 1fr
+
+@media screen and (max-width: 1080px)
+  .landing-header.new
+    .landing-header-wrap
+      .container
+        .banner-content
+          .green-title
+            font-size: 35px
+  .redeem-sec
+    .redeem-items
+    //  grid-template-columns: 1fr 1fr
 @media screen and (max-width: 862px)
+  .you-may-know
+    .pro-tiles
+      grid-template-columns: repeat(auto-fill, minmax(254px, 254px))
   .landing-header
     .landing-header-wrap
       .container
@@ -227,7 +489,52 @@
           .green-title
             font-size: 30px
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 767px)
+  .landing-header.new
+    .landing-header-wrap
+      height: auto
+      padding-bottom: 100px
+      background: #000000
+      .container
+        .banner-content
+          .landing-subtitle
+            text-align: center
+            font-size: 20px
+  .join-bar
+    .bar-tips-wrap
+      display: flex
+      justify-content: center
+      .bar-tips
+        flex-direction: column
+        align-items: baseline
+        ul
+          padding: 0!important
+  .landing-header.new
+    .landing-header-wrap
+      .container
+        .banner-content
+          .green-title
+            font-size: 35px
+    .landing-logo
+      position: relative
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      img
+        width: 180px
+        height: auto
+      .logo-text
+        font-size: 16px
+        text-align: center
+        border: none
+        padding-left: 0
+  .you-may-know
+    .testimonials
+      flex-direction: column
+      .testimonial
+        margin-left: 0!important
+        margin-right: 0!important
+        margin-bottom: 30px
   .landing-logo
     position: relative
     text-align: center
@@ -268,6 +575,7 @@
       .container
         .banner-content
           .landing-signup-form
+            padding: 31px 22px
             .form-controls
               a
                 justify-content: space-around
@@ -275,6 +583,37 @@
                   margin-right: 0
 
 @media screen and (max-width: 420px)
+  .landing-header.new
+    .landing-header-wrap
+      .container
+        .banner-content
+          .header-logos
+            justify-items: center
+            img
+              max-width: 200px
+        .header-logos
+          justify-items: center
+          text-align: center
+          img
+           max-width: 200px
+           padding-bottom: 10px
+
+  .you-may-know
+    .testimonials
+      .testimonial
+        .content
+          padding-top: 20px
+          height: auto
+        .author-info
+          padding-top: 105px
+          .author-photo
+            img
+              width: 125px
+              height: 125px
+              left: calc(50% - 65px)
+
+
+
   .landing-header
     .landing-header-wrap
       .container

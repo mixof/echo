@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61c43473-77ba-4e8f-865d-3f7af9d8eb21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sass/forum.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ECHO v2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ECHO v2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ECHO2_Func_Spec.docx" beforeDir="false" afterPath="$PROJECT_DIR$/ECHO2_Func_Spec.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/network-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/network-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/landing.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/landing.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/networking.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/networking.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/responsive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/responsive.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/widgets.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/widgets.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +165,56 @@
       <workItem from="1611672830736" duration="2747000" />
       <workItem from="1611834033083" duration="5380000" />
       <workItem from="1611918315721" duration="7011000" />
+      <workItem from="1612260868433" duration="5991000" />
+      <workItem from="1612339973557" duration="9764000" />
+      <workItem from="1612436143990" duration="5510000" />
+      <workItem from="1612512622586" duration="6027000" />
+      <workItem from="1612785428665" duration="17000" />
+      <workItem from="1612785511990" duration="5066000" />
+      <workItem from="1612860247591" duration="3172000" />
+      <workItem from="1612950505178" duration="11302000" />
+      <workItem from="1613044274855" duration="7545000" />
+      <workItem from="1613124850798" duration="1462000" />
+      <workItem from="1613377356084" duration="15488000" />
+      <workItem from="1613469128300" duration="3405000" />
+      <workItem from="1613586070219" duration="2119000" />
+      <workItem from="1614075293349" duration="46000" />
+      <workItem from="1614168561474" duration="3401000" />
+      <workItem from="1614264818285" duration="791000" />
+      <workItem from="1614336419251" duration="8456000" />
+      <workItem from="1614592617564" duration="5744000" />
+      <workItem from="1614690087443" duration="3192000" />
+      <workItem from="1614770810554" duration="628000" />
+      <workItem from="1614801989662" duration="30000" />
+      <workItem from="1614848375570" duration="123000" />
+      <workItem from="1615203124080" duration="3177000" />
+      <workItem from="1615287826068" duration="879000" />
+      <workItem from="1615317266729" duration="14000" />
+      <workItem from="1616078256842" duration="8171000" />
+      <workItem from="1616164293290" duration="3902000" />
+      <workItem from="1616502634170" duration="7479000" />
+      <workItem from="1616584073006" duration="1488000" />
+      <workItem from="1616767932039" duration="4683000" />
+      <workItem from="1617012972095" duration="8348000" />
+      <workItem from="1617192529139" duration="3784000" />
+      <workItem from="1617286808200" duration="8406000" />
+      <workItem from="1617351951351" duration="19898000" />
+      <workItem from="1617602863285" duration="20822000" />
+      <workItem from="1617703134461" duration="3188000" />
+      <workItem from="1617792436288" duration="8930000" />
+      <workItem from="1617870738259" duration="14988000" />
+      <workItem from="1617958131808" duration="5582000" />
+      <workItem from="1618218210567" duration="14024000" />
+      <workItem from="1618308981199" duration="3787000" />
+      <workItem from="1618391610053" duration="4391000" />
+      <workItem from="1618409951084" duration="2296000" />
+      <workItem from="1618492620484" duration="125000" />
+      <workItem from="1618568375740" duration="1955000" />
+      <workItem from="1618823595574" duration="1649000" />
+      <workItem from="1618908574415" duration="2411000" />
+      <workItem from="1619004752209" duration="24961000" />
+      <workItem from="1619099131097" duration="64672000" />
+      <workItem from="1620132243885" duration="6599000" />
     </task>
     <servers />
   </component>
@@ -162,37 +222,32 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2312" y="88" key="#Deployment" timestamp="1610620188253">
+    <state x="2312" y="88" key="#Deployment" timestamp="1617289448541">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="88" key="#Deployment/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1603114224202" />
-    <state x="2312" y="88" key="#Deployment/1920.0.1600.860/0.0.1920.1040@1920.0.1600.860" timestamp="1610620188253" />
-    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603114145931">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="2312" y="88" key="#Deployment/1920.0.1600.860/0.0.1920.1040@1920.0.1600.860" timestamp="1617289448541" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1620156588658">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1603114145931" />
-    <state x="2500" y="185" key="FileChooserDialogImpl" timestamp="1611669962010">
-      <screen x="1920" y="0" width="1600" height="860" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620156588658" />
+    <state x="696" y="224" key="FileChooserDialogImpl" timestamp="1619099916898">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="495" y="157" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1611002226011" />
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1608036009182" />
-    <state x="2500" y="185" key="FileChooserDialogImpl/1920.0.1600.860/0.0.1920.1040@1920.0.1600.860" timestamp="1611669962010" />
-    <state x="656" y="329" key="WebDeployment.AddServerDialog.v.1" timestamp="1603114187810">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="696" y="224" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619099916898" />
+    <state x="2500" y="185" key="FileChooserDialogImpl/1920.0.1600.860/0.0.1920.1040@1920.0.1600.860" timestamp="1617885010209" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1613383361601">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="329" key="WebDeployment.AddServerDialog.v.1/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1603114187810" />
-    <state x="553" y="256" key="publish.login" timestamp="1610964765345">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="461" y="165" key="SettingsEditor/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1613383361601" />
+    <state x="547" y="236" width="807" height="819" key="run.anything.popup" timestamp="1619703747836">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="553" y="256" key="publish.login/0.0.1366.728@0.0.1366.728" timestamp="1610964765345" />
-    <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1608650226368">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="547" y="236" width="807" height="819" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1619703747836" />
+    <state x="2376" y="195" width="672" height="677" key="run.anything.popup/1920.0.1600.860/0.0.1920.1040@1920.0.1600.860" timestamp="1617360326575" />
+    <state x="555" y="217" width="945" height="820" key="search.everywhere.popup" timestamp="1619011955251">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="456" y="195" width="672" height="677" key="run.anything.popup/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1608650226368" />
-    <state x="395" y="152" width="672" height="574" key="search.everywhere.popup" timestamp="1610535812477">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="395" y="152" width="672" height="574" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1610535812477" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/-1366.0.1366.728@0.0.1600.860" timestamp="1603114139485" />
+    <state x="555" y="217" width="945" height="820" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1619011955251" />
+    <state x="555" y="217" width="945" height="820" key="search.everywhere.popup/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1613387423199" />
   </component>
 </project>

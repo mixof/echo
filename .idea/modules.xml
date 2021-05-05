@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ECHO v2.iml" filepath="$PROJECT_DIR$/.idea/ECHO v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../OSPanel/domains/echov2-wp.com/echo-web-2/wp-content/plugins/response-form/.idea/response-form.iml" filepath="$PROJECT_DIR$/../../OSPanel/domains/echov2-wp.com/echo-web-2/wp-content/plugins/response-form/.idea/response-form.iml" />
     </modules>
   </component>
 </project>
