@@ -78,6 +78,10 @@
   color: #ffffff
   &:hover
     color: #ffffff
+  &:focus
+    color: white
+  &:active
+    color: white
 
 .resource-item
   display: flex
@@ -167,7 +171,9 @@
         color: $orange_title_color
 
 
+
 #pro_resource_modal
+  padding-right: 0!important
   .modal-dialog
     .modal-body
       display: flex
@@ -193,6 +199,11 @@
     height: 59px
     &:hover
       color: white
+    &:focus
+      color: white
+    &:active
+      color: white
+
 .resource-content
   padding-top: 20px
 
@@ -226,6 +237,27 @@ div[role="button"]
 .no-pads
   .members-sec
     padding-top: 6px
+
+#resource_download_modal
+  padding-right: 0!important
+  .modal-body
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    .echo-btn-gred
+      width: auto
+      color: white
+      font-size: 18px
+      padding: 0 20px
+      text-decoration: none
+      &:hover
+        color: white
+        text-decoration: none
+    p
+      padding-top: 10px
+      a
+        color: $orange_title_color
 
 
 
