@@ -444,6 +444,8 @@ footer
         ul
           padding-inline-start: 0
           list-style: none
+          li:not(:last-child)
+            padding-right: 30px
         table
           width: auto
         .banner-feature
@@ -454,7 +456,7 @@ footer
           font-weight: normal
           line-height: 1.4
           color: $main_white
-          padding-right: 64px
+          padding-right: 0
           i
             margin-right: 10px
       .banner-controls
@@ -1020,14 +1022,14 @@ footer
     max-height: 131px
     background-color: $main_dark
     padding-left: 37px
-    padding-top: 39px
-    padding-bottom: 34px
+    padding-top: 20px
+    padding-bottom: 20px
     h3
       font-family: 'AvenirNextLTPro-Demi'
       font-size: 25px
       line-height: 1.4
-      color: $main_light_green
-      padding-bottom: 4px
+      color: $main_white
+      padding-bottom: 0px
     span
       font-family: 'AvenirNextLTPro'
       font-size: 15px
@@ -1485,7 +1487,7 @@ input[type=button].fmwp-reply-popup-discard,input[type=button]#fmwp-topic-popup-
 /**-------------------------------------------OFFERS SECTION----------------------------------------------**/
 
 .offers-sec
-  padding-bottom: 60px
+  padding-bottom: 0px
   .view-all-btn
     margin-top: 20px
 .offers-list
@@ -2544,6 +2546,7 @@ input[type=button].fmwp-reply-popup-discard,input[type=button]#fmwp-topic-popup-
     font-size: 22px
     padding: 1em 0
 
+
 .fmwp.fmwp-ui-xl
   .fmwp-responsive
     &:not(.fmwp-ui-xl)
@@ -2567,6 +2570,9 @@ input[type=button].fmwp-reply-popup-discard,input[type=button]#fmwp-topic-popup-
       max-width: 817px
       .banner-title
         font-size: 70px
+        padding: 22px 63px
+        background-color: #7eb945
+        color: white
       .banner-subtitle
         font-size: 35px
       .banner-controls
@@ -2746,11 +2752,27 @@ input[type=button].fmwp-reply-popup-discard,input[type=button]#fmwp-topic-popup-
     .banner-content
       padding-top: 6px
       padding-bottom: 0px
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
       .banner-title
-        font-size: 80px
-        font-family: 'AvenirNextLTPro-Demi'
+        font-size: 70px
+        font-family: 'AvenirNextLTPro'
+        font-weight: bold
+        font-stretch: normal
+        font-style: normal
+        line-height: normal
+        letter-spacing: normal
+        text-align: center
+        color: #ffffff
+        background-color: #7eb945
+        padding: 22px 63px
       .banner-features
         padding-top: 30px
+        ul
+          display: flex
+
 .main-banner.workshops-banner
   .banner-wrap
     .banner-content
@@ -2776,7 +2798,7 @@ input[type=button].fmwp-reply-popup-discard,input[type=button]#fmwp-topic-popup-
       width: 50px!important
       height: 50px!important
   span.um-badges
-    height: 50px!important
+    height: auto!important
 
 .um-members-grid
   .um-header
@@ -2787,6 +2809,65 @@ input[type=button].fmwp-reply-popup-discard,input[type=button]#fmwp-topic-popup-
     span.um-badges
       min-height: 60px
       height: auto!important
+.main-footer-link
+  a.footer-menu-link
+    color: $orange_title_color
+
+
+.card.featured-pro-tip-card
+  justify-content: flex-end
+  padding: 0!important
+  .card-body
+    background-color: #00000070
+    height: auto
+    display: flex
+    flex-direction: column
+    flex: inherit
+    margin-bottom: 32px
+    margin-right: 10%
+    padding: 35px
+    .category
+      font-family: AvenirNextLTPro
+      font-size: 12px
+      font-weight: bold
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.33
+      letter-spacing: normal
+      text-align: left
+      color: #7eb945
+    .title
+      font-family: AvenirNextLTPro-Demi
+      font-size: 20px
+      font-weight: normal
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.4
+      letter-spacing: normal
+      text-align: left
+      color: #ffffff
+      margin: 15px 0
+    a
+      padding: 9px 20.2px 7px 21px
+      border-radius: 5px
+      background-color: #fa4616
+      display: flex
+      max-width: 120px
+      font-family: AvenirNextLTPro-Demi
+      font-size: 12px
+      font-weight: normal
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.33
+      letter-spacing: normal
+      text-align: center
+      color: #ffffff
+      text-decoration: none
+      display: inline-block
+      vertical-align: middle
+.badge_notif_image
+  img
+    width: 100px!important
 
 
 @import 'networking'

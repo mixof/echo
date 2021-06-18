@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61c43473-77ba-4e8f-865d-3f7af9d8eb21" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/resources.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/resources.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/responsive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/responsive.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +45,12 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/response-form_2021-04-25/assets/js/cpa-response-form.js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/response-form_2021-04-25/assets/js/cpa-response-form.js" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -205,7 +208,15 @@
       <workItem from="1620132243885" duration="32183000" />
       <workItem from="1620829514748" duration="6230000" />
       <workItem from="1620995591448" duration="37000" />
-      <workItem from="1620995630432" duration="2787000" />
+      <workItem from="1620995630432" duration="7898000" />
+      <workItem from="1621425149202" duration="10493000" />
+      <workItem from="1621861437751" duration="33329000" />
+      <workItem from="1622533745019" duration="2330000" />
+      <workItem from="1622618104558" duration="12654000" />
+      <workItem from="1623067517732" duration="1749000" />
+      <workItem from="1623144806458" duration="31659000" />
+      <workItem from="1623658328833" duration="87000" />
+      <workItem from="1623658510164" duration="9485000" />
     </task>
     <servers />
   </component>
@@ -213,32 +224,32 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2312" y="88" key="#Deployment" timestamp="1617289448541">
-      <screen x="1920" y="0" width="1600" height="860" />
+    <state x="470" y="106" key="#Deployment" timestamp="1623246902223">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="470" y="106" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1623246902223" />
     <state x="2312" y="88" key="#Deployment/1920.0.1600.860/0.0.1920.1040@1920.0.1600.860" timestamp="1617289448541" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1620156588658">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1623756331342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620156588658" />
-    <state x="696" y="224" key="FileChooserDialogImpl" timestamp="1620995627442">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623756331342" />
+    <state x="537" y="224" width="599" height="485" key="FileChooserDialogImpl" timestamp="1623756273916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="696" y="224" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1620995627442" />
+    <state x="537" y="224" width="599" height="485" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623756273916" />
     <state x="2500" y="185" key="FileChooserDialogImpl/1920.0.1600.860/0.0.1920.1040@1920.0.1600.860" timestamp="1617885010209" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1613383361601">
+    <state x="669" y="271" width="581" height="498" key="find.popup" timestamp="1623678160412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1613383361601" />
+    <state x="669" y="271" width="581" height="498" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623678160412" />
     <state x="547" y="236" width="807" height="819" key="run.anything.popup" timestamp="1619703747836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="547" y="236" width="807" height="819" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1619703747836" />
     <state x="2376" y="195" width="672" height="677" key="run.anything.popup/1920.0.1600.860/0.0.1920.1040@1920.0.1600.860" timestamp="1617360326575" />
-    <state x="555" y="217" width="945" height="820" key="search.everywhere.popup" timestamp="1619011955251">
+    <state x="555" y="217" width="945" height="820" key="search.everywhere.popup" timestamp="1623756262048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="555" y="217" width="945" height="820" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1619011955251" />
-    <state x="555" y="217" width="945" height="820" key="search.everywhere.popup/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1613387423199" />
+    <state x="555" y="217" width="945" height="820" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623756262048" />
   </component>
 </project>

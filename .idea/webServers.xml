@@ -23,6 +23,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="8ec5db08-ff8a-450b-9c75-197b18beb775" name="BONDAI LIVE" url="http://76.74.132.77">
+        <fileTransfer host="76.74.132.77" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
